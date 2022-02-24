@@ -1,0 +1,688 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Remarques on the humours and conversations of the town written in a letter to Sr. T.L.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1673</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 91 KB of XML-encoded text transcribed from 82 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A49747</idno>
+            <idno type="STC">Wing L64</idno>
+            <idno type="STC">Wing R932B</idno>
+            <idno type="STC">ESTC R16879</idno>
+            <idno type="EEBO-CITATION">12340873</idno>
+            <idno type="OCLC">ocm 12340873</idno>
+            <idno type="VID">59880</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A49747)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 59880)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 215:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Remarques on the humours and conversations of the town written in a letter to Sr. T.L.</title>
+                  <author>S. L.</author>
+               </titleStmt>
+               <extent>[13], 144 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Allen Banks ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1673.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Assigned by Wing to "S.L.", with Wing number L64, in first ed.; number changed in Wing (2nd ed.) to R932B.</note>
+                  <note>Reproduction of original in British Library.</note>
+                  <note>Contrasting the merits of rural life with the vices of the city.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>City and town life --  Controversial literature --  Early works to 1800.</term>
+               <term>Country life --  Early works to 1800.</term>
+               <term>London (England) --  Social life and customs.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-03</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-04</date>
+            <label>Leah Yurasek</label>Sampled and proofread</change>
+         <change>
+            <date>2011-04</date>
+            <label>Leah Yurasek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:59880:1" rendition="simple:additions"/>
+            <pb facs="tcp:59880:1"/>
+            <p>Remarques ON THE HUMOURS AND Converſations OF THE TOWN.</p>
+            <p>Written in a Letter to S<hi rend="sup">t</hi>. <hi>T. L.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Allen Banks,</hi> at the ſign of St. <hi>Peter</hi> at the Weſt end of St. <hi>Pauls.</hi> 1673.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:59880:2"/>
+            <pb facs="tcp:59880:2" rendition="simple:additions"/>
+            <head>TO THE READER.</head>
+            <p>
+               <seg rend="decorInit">T</seg>Hou haſt often, without doubt Reader, heard of a ſort of deſpiſed Animals, call'd Coun<g ref="char:EOLhyphen"/>try-Gentlemen: if thou frequenteſt the Play-houſe, thou haſt there ſeen us brought in with a high<g ref="char:EOLhyphen"/>crown'd Hat, a Sword put through the waſt-band of our Breeches, and a pair of antick tops; where
+<pb facs="tcp:59880:3"/>
+we tamely ſtand, whilſt the learned man of Humours practiſes upon us with his ſleights, and intrigues. And if thou uſeſt the company of the Wits, thou knoweſt that we fur<g ref="char:EOLhyphen"/>niſh them with their moſt pleaſant entertainment. Nay, if the Poet out of an exceſs of his bounty, is inclin'd to refreſh the company with an extraordinary treat of Humours we are the men with whom he com<g ref="char:EOLhyphen"/>poſes the <hi>Regalio;</hi> where he ſwells and looks big, to ſee the ſucceſs of his victorious Stratagems. We ſhould be glad that our Maſters the Poets can make any uſe of us conſidering our unpoliſht and rough capacities; but in the mean time they muſt take it kindly from us
+<pb facs="tcp:59880:3"/>
+if we adviſe ſome of them alſo, to look well to their own glory, and to appear leſs ridiculous themſelves, leſt they ſhould become the ſcorn of their own vaſſals. They cannot take it ill from us, if we deſire a little to pry into thoſe admirable things for which they are ſo much admired; the humour of our climate <hi>Abandons</hi> that Eaſtern State, of demanding adoration to powers wrapt up in Clouds. We have ta<g ref="char:EOLhyphen"/>ken the boldneſs to approach the Heroes, and to examine their Geni<g ref="char:EOLhyphen"/>us; which in many of them, we find not only the moſt wild and extra<g ref="char:EOLhyphen"/>vagant, but the moſt idle and tri<g ref="char:EOLhyphen"/>fling that ever beſtrid an Age. And certainly either Hiſtorians have been
+<pb facs="tcp:59880:4"/>
+much to blame, in recommending to us a pompous name of Virtue, Glory, and Renown, acquired by our Anceſtors, making that ap<g ref="char:EOLhyphen"/>pear noble and uſeful to mankind, which was dull and rude, or elſe their Children have nothing in them worthy of their Fathers: In things ſo different and unlike, either they, or we muſt ſtrangely have miſcarri<g ref="char:EOLhyphen"/>ed; and this we muſt ſay in fa<g ref="char:EOLhyphen"/>vour of thoſe that liv'd before us, that what they did was gravely and ſilently, but the acquiſts of this Age, are made with a ſtrange af<g ref="char:EOLhyphen"/>fectation and noiſe; our ſmalleſt performances creating in us more pride, than their mighty atchieve<g ref="char:EOLhyphen"/>ments did in them, and ſwelling us
+<pb facs="tcp:59880:4"/>
+to a contempt of all thoſe who are not at leiſure to appear as ridicu<g ref="char:EOLhyphen"/>lous as our ſelves. The following paper cannot be accuſed of doing injuſtice to any, ſince all are obliged to give the liberty they take: and as for the reſt, ſince it do's not re<g ref="char:EOLhyphen"/>flect on particular men, the Author might with reaſon expect that good nature from them, which they ex<g ref="char:EOLhyphen"/>tend to comical entertainments; all are content to be taken to pieces in a Play-houſe; and to be exhibited for divertiſement on the Stage; which are much unkinder reflections than are made in this paper. Beſides, ſince we have to do with nothing but blemiſhes and errours, the Laws of writing allow thoſe to be inſiſted
+<pb facs="tcp:59880:5"/>
+on, for the admoniſhing of others. What could be done leſs than to reckon up the ordinary follies of the Town life, to a perſon who we deſired ſhould value the innocence and manlineſs of a Country one. We have too great a kindneſs for our Relations, to deſire that they ſhould that way aſpire to be Heroes; but that they ſhould rather reſerve themſelves for fairer occaſions of acquiring glory. Our rural affairs, and innocence, afford us that im<g ref="char:EOLhyphen"/>ployment, that we are not at leiſure to mind the Towns treatment of us; and if we might in the Country but be free from the communication of their Vices, we ſhould eaſily re<g ref="char:EOLhyphen"/>ſign them all our pretences to their
+<pb facs="tcp:59880:5"/>
+renown and pleaſures: 'tis not an envy of their Grandures, tranſports us to make remarks on their way of living, nor their Drolleries on us, that excite us to revenge, they are an unequal match for us to encoun<g ref="char:EOLhyphen"/>ter; one ſtab of a Sonnet, would be mortal to the little ſence we have acquired; and we only remonſtrate to others, and not preſume to find errours in ſuch labour'd Editions of their great capacities. And we be<g ref="char:EOLhyphen"/>ſides, know the vanity of affron<g ref="char:EOLhyphen"/>ting the Darlings of Fame; and we rather ſit down with a ſubmiſsion to the <hi>capricio</hi> of her phancy, than endeavour to reclaim her femi<g ref="char:EOLhyphen"/>nine humour: we would prevent her from aggrandizing any of our
+<pb facs="tcp:59880:6"/>
+friends with favours worſe than in<g ref="char:EOLhyphen"/>famy; and we wiſh ſo well to her Heroes, that they may triumph alone in their exceſs of felicity: yet if there ſhould come a time that ſhe might diſcard them, we deſire not to ſtep into their fortune; and only wiſh that they who next ſhare in her eſteem, may be the Authors of more benefits, and good Offices to mankind, than her preſent Mi<g ref="char:EOLhyphen"/>nions have been: but if ſhe con<g ref="char:EOLhyphen"/>tinues in the ſame humour, we can<g ref="char:EOLhyphen"/>not but pity thoſe who come after us, that will through the miſts of ſo much vanity, ſee leſs clearly the glory and renown of former Ages; and feel at a greater diſtance, a leſs force from that emulation.</p>
+            <p>
+               <pb facs="tcp:59880:6"/>I do not speak this, as if the Town were not abundantly furniſh<g ref="char:EOLhyphen"/>ed with perſons of both ſexes, that are excellent in their Generations both for underſtanding, good Go<g ref="char:EOLhyphen"/>vernment, and Vertue; but ſtill theſe fair endowments are rather bleſſings to themſelves than exam<g ref="char:EOLhyphen"/>ples to others, for they live private and to their own Conſciences, whereas vice and vanity walk bare-faced; and the Mode and humour of the times (how corrupted ſoever) paſ<g ref="char:EOLhyphen"/>ſeth for the ſtandard of Wit and good Company.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:59880:7"/>
+            <pb n="1" facs="tcp:59880:7"/>
+            <p>
+               <seg rend="decorInit">I</seg>T was, Sir, both with trouble and ſurprize, that I received from my Lady, your re<g ref="char:EOLhyphen"/>ſolutions of going to ſpend ſome years in <hi>London;</hi> and that, not only through the compaſ<g ref="char:EOLhyphen"/>ſion I have, for the affliction you will thereby bring to ſo affectionate and tender a Mo<g ref="char:EOLhyphen"/>ther; but alſo a real pity, to ſee you expoſe qualities of ſo much innocence and vertue, to the revenous and devouring Vices of the Town. I know by a long experience in that place
+<pb n="2" facs="tcp:59880:8"/>
+that the life of a young Gentle<g ref="char:EOLhyphen"/>man led there, is for the grea<g ref="char:EOLhyphen"/>ter part vicious, ſottiſh, and prophane, and not only de<g ref="char:EOLhyphen"/>generated below the precepts of ancient gallantry and gene<g ref="char:EOLhyphen"/>roſity; but beneath that pru<g ref="char:EOLhyphen"/>dence, ſo briety, and diſcretion, which ought to be found in all who pretend to man-hood <hi>England,</hi> that firſt took its Vices from the bordering Nations, has now out-done them; and by its over-apeing humour, exceeded the pattern of its crimes; Whilſt <hi>France</hi> former<g ref="char:EOLhyphen"/>ly eſteemed the moſt fanta<g ref="char:EOLhyphen"/>ſtick Country of the Univerſe, has of late reſcued it ſelf from
+<pb n="3" facs="tcp:59880:8"/>
+ſome of its follies, and be<g ref="char:EOLhyphen"/>queath'd to us thoſe Vices of which it is now grown aſham'd; and we are be<g ref="char:EOLhyphen"/>come the more trifling and effeminate Nation of the two, and the place you go to viſit, is the intoxicated and giddy head of all theſe Vanities. The education you have hitherto had amongſt your friends, has been agreeable to the ancient Precepts of nobleneſs, gene<g ref="char:EOLhyphen"/>roſity, and vertue, but when you come to the Town, you muſt be told that theſe things are ſet formalities, and out of Mode, and not ſuitable to that careleſs and undeſigning
+<pb n="4" facs="tcp:59880:9"/>
+way of living now in uſe; careleſs and undeſigning with a witneſs! Which owes its Epi<g ref="char:EOLhyphen"/>thites to the neglect of all ver<g ref="char:EOLhyphen"/>tue, and the blind impetuoſi<g ref="char:EOLhyphen"/>ty of humour: their way of living is now removed out of the Road hedg'd in by the pru<g ref="char:EOLhyphen"/>dence and juſtice of our An<g ref="char:EOLhyphen"/>ceſtors; and acknowledges no courſe inglorious and irre<g ref="char:EOLhyphen"/>gular: the admired wit to which they pretend, and in which they ſo much triumph, is of ſo hot a mettle, that it has leap'd the Fence of Ages, and takes its wild carrear over all the Incloſures of the Uni<g ref="char:EOLhyphen"/>verſe; and it is now on ſo
+<pb n="5" facs="tcp:59880:9"/>
+fierce a ſpeed, that where it will ſtop, even Aſtrology can<g ref="char:EOLhyphen"/>cannot aſſure us. Our Ance<g ref="char:EOLhyphen"/>ſtors deſerv'd the fame of a better management, who conſidered equally, their own ſatisfaction, and the good of the world, and in that pra<g ref="char:EOLhyphen"/>ctiſed a moderation, which freed humane affairs from thoſe inconveniencies and ſur<g ref="char:EOLhyphen"/>feits they ſuffer from their Children. To be ſerious and to be wiſe, was a reputation great enough to them, and they coveted not the triumphs reap'd from the heights of frenzy and madneſs: the Town was then a place of bet<g ref="char:EOLhyphen"/>ter
+<pb n="6" facs="tcp:59880:10"/>
+education, and its conver<g ref="char:EOLhyphen"/>ſation was manly, accompliſht and innocent; and a Gallant then viſiting the Country, came furniſht with ſomething more excellent than a bundle of Sonnets, bringing with him, from the fountain of the re<g ref="char:EOLhyphen"/>finedſt converſation, a richer ſence than was ſung at the cor<g ref="char:EOLhyphen"/>ner of every ſtreet: yet this is the advantage they commu<g ref="char:EOLhyphen"/>nicate to us now, affording us only the knowledge of thoſe trifling things, which we eſteem our felicity to be with<g ref="char:EOLhyphen"/>out; whilſt yet they are plea<g ref="char:EOLhyphen"/>ſed to value themſelves highly on ſuch a ſufficiency, and to
+<pb n="7" facs="tcp:59880:10"/>
+deſpiſe us for being defective in thoſe accompliſhments; and yet theſe Gentlemen thirſt after the fame of Heroes, &amp; ex<g ref="char:EOLhyphen"/>traordinary men. The real ad<g ref="char:EOLhyphen"/>vantages then which you pro<g ref="char:EOLhyphen"/>poſe to your ſelf, Sir, are no<g ref="char:EOLhyphen"/>thing important in that ſort of life, whilſt the inconveniencies will be very conſiderable: it is neceſſary you ſhould think on what you abandon in quit<g ref="char:EOLhyphen"/>ting the Country, which yet are advantagious things, if you will put your ſelf to the trou<g ref="char:EOLhyphen"/>ble of reflecting on them.</p>
+            <p>You have juſt reaſon to be<g ref="char:EOLhyphen"/>lieve, and you have the vogue of the world, to concur with
+<pb n="8" facs="tcp:59880:11"/>
+you in ſuch an opinion; that all the accompliſhments of Woman-kind, are to be found in your excellent Mother; her great wit, her prudence, her port and manner of living, rendring her ſelf, &amp; her houſe moſt conſiderable. And though there is uſually that awe im<g ref="char:EOLhyphen"/>printed on us by the ſeverities of education, as makes us de<g ref="char:EOLhyphen"/>ſire to ſpend our youth far from our Parents, out of a love of childiſh liberty and frol<g ref="char:EOLhyphen"/>licks; yet my Ladies carriage to you, has ſtill been attended with that ſweetneſs, and pru<g ref="char:EOLhyphen"/>dence, as perfectly to over<g ref="char:EOLhyphen"/>come an unpleaſant obſequi<g ref="char:EOLhyphen"/>ouſneſs
+<pb n="9" facs="tcp:59880:11"/>
+in you: it is true her diſcretion would not permit her to indulge you in any vici<g ref="char:EOLhyphen"/>ous liberties, like thoſe fond and imprudent Mothers, who think they cannot ſhew their love enough to an only Son, unleſs they comply with all their extravagancies; and con<g ref="char:EOLhyphen"/>ſider them alwaies as Children that muſt have their wills, ſo looſing betimes that authori<g ref="char:EOLhyphen"/>ty, and reſpect, which the ill-educated Boy has never af<g ref="char:EOLhyphen"/>ter grace enough to acknow<g ref="char:EOLhyphen"/>ledge: and then, like ſome ſort of Lovers, they pleaſe themſelves in their own kind<g ref="char:EOLhyphen"/>neſs; and in ſupporting the
+<pb n="10" facs="tcp:59880:12"/>
+neglects of their children, with a patience truly a reproach to their dignity and duty: my Lady has lov'd your accom<g ref="char:EOLhyphen"/>pliſhments in Vertue, and ex<g ref="char:EOLhyphen"/>cellent qualities too well, to permit you an extravagant li<g ref="char:EOLhyphen"/>berty; but yet ſhe did theſe things, with a ſweetneſs and an air, that demonſtrated at the ſame time the pleaſures of her conduct. She conſi<g ref="char:EOLhyphen"/>dered that you were her only Son, but yet ſhe did not from ſuch a reflection, become pre<g ref="char:EOLhyphen"/>ſently of the opinion, that ſhe could not appear fond enough of you, nor with too much freedom let you know
+<pb n="11" facs="tcp:59880:12"/>
+the pleaſure ſhe took in you; but with greater wiſdom and generoſity, ſhe thought it her duty, to endeavour to make appear in you, the vertue and the hopes of many Sons; well knowing, that a wild Liberty (uſually the effect of a declared fondneſs) would have been the reproach of your family and of her con<g ref="char:EOLhyphen"/>duct: and that it would have been worſe to have you live with ſo much infamy, (what ever the Age may diſcourſe to the contrary) than to bury you with the univerſal com<g ref="char:EOLhyphen"/>paſſion and grief, paid to the death of a hopeful Gentleman.
+<pb n="12" facs="tcp:59880:13"/>
+Moreover ſhe conſidered, tha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a Mother is a ſtranger aſſum<g ref="char:EOLunhyphen"/>ed into a Family; and tha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſhe is on that ſcore to diſcharge the truſt ſhe ſtands obliged in to that Race; ſhe is not to gratifie her particular fond<g ref="char:EOLhyphen"/>neſs, but to govern her ſelf by the glory and the intereſt of a name: ſo that any juſt ſeverity in a Mother, is no<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to be looked upon as her pe<g ref="char:EOLunhyphen"/>culiar reſentments, but he reſpect to that Duty ſhe ſtand obliged to perform. I remind you of all this, Sir, becauſe you are now arrived to an Age of conſideration, and to in<g ref="char:EOLhyphen"/>vite you to reflect on the grand
+<pb n="13" facs="tcp:59880:13"/>
+obligations you have to my Lady, for her manner of edu<g ref="char:EOLhyphen"/>cating you; in which you will ſee a little ingratitude, in being oppoſite to her deſires of keeping you with her; let the Humouriſts of this Age talk what they pleaſe, of the height of Spirit, and the gal<g ref="char:EOLhyphen"/>lantry of deſpiſing the Regi<g ref="char:EOLhyphen"/>ment of a Mother; they muſt ſhow us a greater advantage they make of that liberty, than lying perpetually in Play-houſes, Taverns, and Whore-houſes, before we can agree to their extravagant ſen<g ref="char:EOLhyphen"/>timents: neither is it my La<g ref="char:EOLhyphen"/>dies fondneſs of keeping you
+<pb n="14" facs="tcp:59880:14"/>
+with her, ſo much as her fear of having you debaucht, which now perplexes her; ſhe would willingly ſpare you for any glorious or advanta<g ref="char:EOLhyphen"/>gious adventures; if it were for the ſervice of your Prince, or the defence of your Coun<g ref="char:EOLhyphen"/>try, ſhe would bluſh to with<g ref="char:EOLhyphen"/>hold you from purſuing ſuch noble enterprizes, and ſhe had rather looſe you to the world, than to your Vertue, and the true glory of your Anceſtors: but ſhe fears the Vices of the Town, more than the Arms of an Enemy; and the ſlavery of thoſe Humours, worſe than the Fetters of a Con<g ref="char:EOLhyphen"/>querour.
+<pb n="15" facs="tcp:59880:14"/>
+She would rejoyce to ſee you ſtick freſh Laurels in the Garlands of your An<g ref="char:EOLhyphen"/>ceſtors, and ſhe would freely abandon you to thoſe fields where you might gather them; but what Bayes you are like to purchaſe in Town, or what perfections you are like to learn there, which may be truly enobling to a Gentleman, cannot poſſibly be made appear to her. But, Sir, if you believe that all this ſtands on a childiſh pun<g ref="char:EOLhyphen"/>ctilio of gratitude, and a fond<g ref="char:EOLhyphen"/>neſs of your Parent, that would make you ridiculous to the Heroes of this Age;
+<pb n="16" facs="tcp:59880:15"/>
+you will find other things ca<g ref="char:EOLhyphen"/>pable of detaining you in the Country.</p>
+            <p>It is agreed by all, that, though converſation is a great felicity, and ſolace to Hu<g ref="char:EOLhyphen"/>mane nature, yet that a life partly of that, and partly of leiſure and retiredneſs, is moſt ſuitable to the affairs and in<g ref="char:EOLhyphen"/>tereſts of men. I ſpeak not this (though I very well might) upon the account of what we owe to Religion; and we have found many of the greateſt Monarchs, and the Adminiſtrators of Regal affairs, when they came to die, to complain of the hur<g ref="char:EOLhyphen"/>ry
+<pb n="17" facs="tcp:59880:15"/>
+and the buſtle of thoſe oc<g ref="char:EOLhyphen"/>currences, that kept them from conſidering any thing of a life, to which all the inte<g ref="char:EOLhyphen"/>reſts of this appear but a ſha<g ref="char:EOLhyphen"/>dow, and nothing, I ſay, I ſhall not ſo much preſent you with this, as thoſe real ad<g ref="char:EOLhyphen"/>vantages that occur to the ac<g ref="char:EOLhyphen"/>compliſhment of men, by a due leiſure &amp; ſerenity: I know that Philoſophy, is ſo far out of credit in this Age, that if I ſhould preſent you with any thing out of that old profeſſi<g ref="char:EOLhyphen"/>on, you would ſo far com<g ref="char:EOLhyphen"/>ply with the preſent Humour, as to deſpiſe me for a Pedant: but I hope that a juſt reaſon,
+<pb n="18" facs="tcp:59880:16"/>
+is not at the ſame time obli<g ref="char:EOLhyphen"/>ged to ſuffer by the <hi>Janty</hi> non<g ref="char:EOLhyphen"/>ſence of the Town.</p>
+            <p>As our thoughts are the firſt images of our actions, ſo after they have lived in that condition, and been perfect<g ref="char:EOLhyphen"/>ed by them, the fading beings, fall back again to the root from whence they grew; where like our ſeparated minds, they live in pleaſure, or in pain; the delight, or torment of reflections, being the Manes of paſt actions. And without doubt, many of the greateſt performances of the world, were as much di<g ref="char:EOLhyphen"/>rected to the pleaſures of re<g ref="char:EOLhyphen"/>membrance,
+<pb n="19" facs="tcp:59880:16"/>
+as they were to the pleaſures of action. We find in the Empire of <hi>Rome,</hi> how many prodigious diffi<g ref="char:EOLhyphen"/>culties, dangers, and toils were overcome by their Captains, only for the Fame and Glory of Triumph; it cannot be imagined, that the luſtres of a day, could become a ſuffici<g ref="char:EOLhyphen"/>ent motive to ſuch painful actions; but there muſt be a great deal aſcribed to the contentment of conſidering it before it arrived, and the proſpect of thoſe pleaſant re<g ref="char:EOLhyphen"/>flections, that might be made when it was paſt; which were without doubt, as conſidera<g ref="char:EOLhyphen"/>ble,
+<pb n="20" facs="tcp:59880:17"/>
+as were found in the ac<g ref="char:EOLhyphen"/>clamations of <hi>Rome,</hi> and the chariot of Triumphs: and the retirements of many fa<g ref="char:EOLhyphen"/>mous men, from the noiſe of thoſe affairs, in which they had lived, might be in ſome, for the pleaſures of reflecting on what was paſt: and though the degrees of ſuch felicities, are injoyed only by thoſe, who have had the ſame pro<g ref="char:EOLhyphen"/>portion of generous enter<g ref="char:EOLhyphen"/>prizes, yet the young, and unexperienced, are not who<g ref="char:EOLhyphen"/>ly deſtitute of ſuch a pleaſure; the reviews of their own ver<g ref="char:EOLhyphen"/>tuous actions, may give them content; ſince all things of
+<pb n="21" facs="tcp:59880:17"/>
+this nature, are meaſured by the Capacity, and the extent of the knowledge; and he is happy in a little, that has not the Idaeas of greater to con<g ref="char:EOLhyphen"/>verſe with. Beſides, there is the great delight, of ſeeing former Ages in the glaſſes of Hiſtory: a proſpect that alſo inſtructs at the ſame time that it pleaſes: there we may be<g ref="char:EOLhyphen"/>hold the beginning, flouriſh<g ref="char:EOLhyphen"/>ing and fading of Kingdoms; the riſe, and fall of illuſtrious Perſonages; the tranſactions, occurrences, and intrigues of all Nations and affairs, ap<g ref="char:EOLhyphen"/>pearing in the Oratory, and Remarques of ſome men,
+<pb n="22" facs="tcp:59880:18"/>
+with a greater pleaſure than the proſpect of ſuch things could poſſible have given us. Action is but rude and imper<g ref="char:EOLhyphen"/>fect in reſpect of the beauty, and life it receives from the ac<g ref="char:EOLhyphen"/>counts and imbelliſhments of Hiſtory; and we may eaſily ſee more of a paſt Age, in the memoires are tranſmitted of it, than we can of the pre<g ref="char:EOLhyphen"/>ſent by having an intereſt in ſome of its actions: he that ſtands on high, takes a more perfect account of an agree<g ref="char:EOLhyphen"/>able ſhow, than he that makes one of the Train: nay, I will venture to ſay further, that though there wants the
+<pb n="23" facs="tcp:59880:18"/>
+action, and the life, yet there is in this, the pleaſures of the beſt converſation; which is divertiſement, and inſtructi<g ref="char:EOLhyphen"/>on: what can more pleaſe us, than to underſtand, how ſome men, from an obſcure begin<g ref="char:EOLhyphen"/>ning, have reach'd all the heights of glory and renown: and how others again, born with the greateſt pretences, have through variety of for<g ref="char:EOLhyphen"/>tunes, deſcended down to the loweſt conditions of men: to read the divers adventures of courage, beauty, and wit, and through how many ſcenes of various actions, they have conducted their Pretenders.
+<pb n="24" facs="tcp:59880:19"/>
+To obſerve how many obſta<g ref="char:EOLhyphen"/>cles have been overcome by a perſevering ambition; and yet at the ſame time, how the ſhock of a ſlight accident, has overthrown the induſtry of many years. To perceive the ſucceſs of an intrigue, walking with a Maſque in in<g ref="char:EOLhyphen"/>quiſitive Courts; which yet the dexterity and art of the Conductor, conveys unknown through all the Examiners. He that obſerves diligently, will find a great delight, in perceiving how ſome vaſt Empire, has at firſt, (like budding flowers) ſprung out of the Earth; when being
+<pb n="25" facs="tcp:59880:19"/>
+continually bleſſed with the Sun-ſhine of ſucceſs, and watered with freſh and vigo<g ref="char:EOLhyphen"/>rous Counſels, it has ſpread it ſelf in ſo vaſt a Dominion, as to ſhade all the neighbou<g ref="char:EOLhyphen"/>ring Kingdoms; when at the ſame time, ſome petty Cabal, (like little worms at the root) bring a languiſhment and fa<g ref="char:EOLhyphen"/>ding over all its glories. Nei<g ref="char:EOLhyphen"/>ther do theſe ſtudies inſtruct at a leſs rate than they delight; they enable us to give a ju<g ref="char:EOLhyphen"/>dicious opinion of preſent tranſactions; they fill the mind with the moſt excellent and generous Idaeas; and they become moreover the true
+<pb n="26" facs="tcp:59880:20"/>
+admoniſhers of the frailty of all. Thoſe, Sir, who cele<g ref="char:EOLhyphen"/>brate perpetual action, and reproach ſtudy, with drowſi<g ref="char:EOLhyphen"/>neſs and idle ſloath, ought themſelves to be exerciſed in very advantagious buſineſs, ſince he that does nothing to the purpoſe, either of his own vertue, or the advan<g ref="char:EOLhyphen"/>tages of mankind, is guilty of a greater idleneſs than the imperial fly-catcher could be reproached with. It is ſtudy that is the beſt Princi<g ref="char:EOLhyphen"/>ple of converſation; with<g ref="char:EOLhyphen"/>out which, it cannot be fur<g ref="char:EOLhyphen"/>niſhed with a juſt capacity to pleaſe; 'tis ſtrange to ob<g ref="char:EOLhyphen"/>ſerve,
+<pb n="27" facs="tcp:59880:20"/>
+how theſe great men of action, talk with a confi<g ref="char:EOLhyphen"/>dence equal to their Igno<g ref="char:EOLhyphen"/>rance; who underſtand no<g ref="char:EOLhyphen"/>thing but what is uttered in the company they keep; where their faithful memo<g ref="char:EOLhyphen"/>ries, preſerve all new and gentile words, but their dark Souls penetrate nothing into the worth of the harangue; which makes them perpetual<g ref="char:EOLhyphen"/>ly hunt for company, becauſe they know not what to do when they are alone; except it be to practiſe a new Dance, or a modiſh Bow; all the buſineſs this Perſon has with former Ages, is to damn their
+<pb n="28" facs="tcp:59880:21"/>
+old faſhions, whilſt he extra<g ref="char:EOLhyphen"/>vagantly celebrates the eaſi<g ref="char:EOLhyphen"/>neſs of the new garniture: he that pretends to underſtand any thing beyond it, (in the opinion of moſt of them) is an affected Pedant, and of a rough and unpoliſht converſation. I write not this, Sir, as if I lov'd a noiſe of learning, and laboured diſcourſes; but it is neceſſary a Gentleman ſhould underſtand ſomething above the Breeches.</p>
+            <p>If we paſs from this point, Sir, to the divertiſements of the Country; you will find them innocent and manly, and much for the preſervati<g ref="char:EOLhyphen"/>on
+<pb n="29" facs="tcp:59880:21"/>
+of your health, and the vigour of your mind; when you delight in the fierceneſs of a Horſe, and purſue the Deer, you are buſied in a no<g ref="char:EOLhyphen"/>bler courſe, than if you were hunting a little Wench. You have beſides variety of other ſports, along the beautiful foot-cloaths of Nature: and when you are wearied with them, you will ſpend more ſweetly the moments of re<g ref="char:EOLhyphen"/>poſe; though you went to bed, without the triumphs of having worſted the Watch in your return from a Tavern, or of having at the head of a couple of Foot-boys, brave<g ref="char:EOLhyphen"/>ly
+<pb n="28" facs="tcp:59880:22"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="29" facs="tcp:59880:22"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="30" facs="tcp:59880:23"/>
+attacqu'd a Troop of Glaſs<g ref="char:EOLhyphen"/>windows, that ſtood imbat<g ref="char:EOLhyphen"/>teled as you paſt to your lodg<g ref="char:EOLhyphen"/>ings; or of having beat up the Quarters of ſome Bawd, who commanded a Squadron of Wenches. You will ſleep well enough without the me<g ref="char:EOLhyphen"/>mory of ſuch exploits, and never miſs their Idaeas to form you glorious dreams: inſtead of them, you may have the ſatisfaction not to have loſt a good quantity of Guinies to a common Rook; nor to have plaid away a Lordſhip in an hour. In ſhort, Sir, here you have the beſt air, the moſt manly divertiſements, the
+<pb n="31" facs="tcp:59880:23"/>
+moſt innocent (and yet not fooliſh) company, which much contribute to your health, and the feſtivitie of your Sences.</p>
+            <p>There is one thing too, of which it will be neceſſary to mind you, and that is what you owe to Poſterity, and the continuance of your Family; as you are an only Son, my Lady preſſes you to Marry; ſhe has propoſed to you a Lady, illuſtrious for her for<g ref="char:EOLhyphen"/>tune, beauty, and youth; and in whoſe converſation, (be<g ref="char:EOLhyphen"/>ſides the advantagious effects) you may meet with more agreeable divertiſements, than
+<pb n="32" facs="tcp:59880:24"/>
+in the careſſes of thoſe whom you make love to with money: had not cuſtom made it gallantry in a Gen<g ref="char:EOLhyphen"/>tleman, it would have appea<g ref="char:EOLhyphen"/>red ridiculous, to ſpend a conſiderable part of a good Eſtate, upon her who perhaps Jilts you in a month or two; and beſtows thoſe favours on another for inclination, which ſhe forces her ſelf to allow to you for her intereſt: this is found in conſiderable Miſtreſſes of the Town, though the vanity and ſelf flattery of ſome men is ſo great, as to make them believe there is that power in their
+<pb n="33" facs="tcp:59880:24"/>
+worth and careſſes as to conquer the ſoveraignty of fancy; and is it not then, Sir, more agreeable to a manly temper, (if there were no vertue in the action) to poſſeſs in an innocent Conſort, that ſincerity, which is never to be found in a Miſtreſs? Thoſe who undervalue thoſe con<g ref="char:EOLhyphen"/>tentments, ſhould at the ſame time ſhow their neglect of them in the whole Sex of Woman kind; but to hear the moſt effeminate and laſcivious Age of the world, mock at the vertuous felicitys of Love, is a thing worthy of ſcorn and contempt. Moreover,
+<pb n="34" facs="tcp:59880:25"/>
+your reſolutions are to marry, to continue your Family, and is it not better to do it now, whilſt you are uncorrupted, than to preſent to your Lady (of a ſweet and blooming youth) a body haraſſed with vitious Loves, and perhaps, infected with innumerable diſtempers: this will not only be an odious ingratitude to her, but a grand miſcarriage to Poſterity; who may through ſome Generations, feel the ſmart of your Vices.</p>
+            <p>In fine, Sir, the juſt care of your Eſtate, ought to have ſome place in your reſoluti<g ref="char:EOLhyphen"/>ons. A young Gentleman,
+<pb n="35" facs="tcp:59880:25"/>
+whoſe prudent Father has left him a round ſumm of ready money, thinks he is obliged, by that ſort of tenure belongs to ſuch an Eſtate, to throw moſt of it away extravagant<g ref="char:EOLhyphen"/>ly; as if Nature had eſtabliſh'd that neceſſary variety, that the Parent who lays up, muſt have a Son to ſpend it: me<g ref="char:EOLhyphen"/>thinks it is ſo pleaſant a ſight, to ſee a young Gentleman re<g ref="char:EOLhyphen"/>turn home to his Country, after ſome years ſpent in the Town, with one third of his Eſtate cut off, or impounded by the Scrivener; and all the purchaſe he has made, with ſo fair a portion of Fortune, is
+<pb n="36" facs="tcp:59880:26"/>
+but a couple of Songs, or'a <hi>French</hi> Dance; a confiden<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> affectation to Swear without fear or wit, or to deſpiſe thoſe who cannot name ſo many conſiderable Whores in the Town as himſelf. We have Sir, often been run down with theſe bluſtring Hectors, who think, that the modiſh non<g ref="char:EOLhyphen"/>ſenſe which they bring from <hi>London,</hi> ſhould be more valued than the civility and agree<g ref="char:EOLhyphen"/>ableneſs of rural converſation. But we ſhall find enough of this ſort of Gallantry, in examining the pleaſures and entertainments of the Town.</p>
+            <p>Well then, Sir, if you neg<g ref="char:EOLhyphen"/>lect
+<pb n="37" facs="tcp:59880:26"/>
+theſe conſiderations, we will ſee what there is in that Town ſo much to be doted on; when you come firſt thither, you will find your ſelf in a little diſtreſs; becauſe though you may poſſibly underſtand as much of true ſence, and good breeding as moſt of them, yet you will be at a loſs, becauſe the fa<g ref="char:EOLhyphen"/>ſhion there conſiſts not in any thing that is real, but in odd terms, and fantaſtick Ideas; in a round of words, and ſtrange punctilio's of action: certain it is, that all things we do, are ſhaped by thoſe Ideas and Images that have the aſ<g ref="char:EOLhyphen"/>cendant
+<pb n="38" facs="tcp:59880:27"/>
+of our minds; and all our good as well as ill actions are agreeable to ſuch Ideas; ſo that you muſt dili<g ref="char:EOLhyphen"/>gently compare thoſe with which you are now furniſhed, with them that govern the Gallants of the Town. You have hitherto believed, that your liberality and munifi<g ref="char:EOLhyphen"/>cence, your ſincerity to your Friend, the civility and ſweet<g ref="char:EOLhyphen"/>neſs of the addreſs, with your moderation and juſtice, were moſt excellent qualities in a Gentleman; you have ac<g ref="char:EOLhyphen"/>cordingly lived to them, and have in their practice obtained an univerſal love and eſteem;
+<pb n="39" facs="tcp:59880:27"/>
+but with your pardon, Sir, you muſt believe other things to be more excellent, or at leaſt ſtrangely regulate theſe, or paſs for nothing conſider<g ref="char:EOLhyphen"/>able with thoſe Magnifico's If when you come into com<g ref="char:EOLhyphen"/>pany, you are not able to give a piercing judgement of ſome admirable paſſage in the Prologue of the laſt Play; if you cannot diſcourſe on the intrigues of famous Wenches, &amp; deliver your own amorous atchievements in the blunteſt laſcivious terms; <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f you cannot mock at Vertue and prudence with a mene of ſcorn and contempt, you
+<pb n="40" facs="tcp:59880:28"/>
+will not be able to keep com<g ref="char:EOLhyphen"/>pany with thoſe Heroes. It is true, there are ſome Jun<g ref="char:EOLhyphen"/>toes of Gallants, that will admit you of their ſociety; if you can but Diſcourſe tol<g ref="char:EOLhyphen"/>lerable of good Wine, of dreſſing and the Mode of your habiliments; if you can de<g ref="char:EOLhyphen"/>liver a pretty good judgement of a new Tune, or a <hi>French</hi> Dance; if you will be a com<g ref="char:EOLhyphen"/>panion with them at a Play, and at the other divertiſements of their lives, which are Wo<g ref="char:EOLhyphen"/>men and Wine; if you are able to do thoſe things, you are accompliſht enough for them, and they require not
+<pb n="41" facs="tcp:59880:28"/>
+of a <hi>Novitiate</hi> ſo great a capa<g ref="char:EOLhyphen"/>city, and ſuch mighty under<g ref="char:EOLhyphen"/>takings as the grander ſocie<g ref="char:EOLhyphen"/>ties; for they penetrate into nothing more deſperate than the outſide; nor covet a high<g ref="char:EOLhyphen"/>erfame, than of (as they call it) honeſt and good na<g ref="char:EOLhyphen"/>tured Gentlemen. But you muſt not live ſo peaceably in the ſociety of the other, they are men that are ruled by the Idaeas of great and gene<g ref="char:EOLhyphen"/>rous actions: it is true, Elo<g ref="char:EOLhyphen"/>quence is part of their buſi<g ref="char:EOLhyphen"/>neſs, but yet it is inferiour to their <hi>Love</hi> of Arms. It is con<g ref="char:EOLhyphen"/>feſſed that they are men of wit enough, and it is not
+<pb n="42" facs="tcp:59880:29"/>
+to be denied but that there is great generoſity in them; for they pretend to value perſons for their worth, and hate a fop, though he ſpreads himſelf in a great ma<g ref="char:EOLhyphen"/>ny Titles, or ſtands mounted on half a ſcore Mannors; they are courteous and obli<g ref="char:EOLhyphen"/>ging to their inferiours, de<g ref="char:EOLhyphen"/>ſiring no ceremonies to be paid to their acquirements, and grandeur, ſhewing as little to thoſe who expect it; they are alwaies in humour, and in ſhort, if they were not ſo fatally corrupted, they are perfectly practiſed in all the arts of the moſt ob<g ref="char:EOLhyphen"/>liging
+<pb n="43" facs="tcp:59880:29"/>
+converſations. Thus far they have drawn Vertue right, and hitherto they have merited the glory of extraor<g ref="char:EOLhyphen"/>dinary men; but yet, though they have given ſociety ſo de<g ref="char:EOLhyphen"/>licate a ſhape, they have yet put to it a Face truly ugly and horrid: nay there are found among theſe men, the moſt fatal Ruiners of ſo many ex<g ref="char:EOLhyphen"/>cellent qualities which the world laments the loſs of; neither have they been ſatiſ<g ref="char:EOLhyphen"/>fied with their own liberties, but a ſtrange ambition tranſ<g ref="char:EOLhyphen"/>ports them, to give Laws to the Univerſe, and to over<g ref="char:EOLhyphen"/>turn the old Regiment ſocie<g ref="char:EOLhyphen"/>ty:
+<pb n="44" facs="tcp:59880:30"/>
+I find celebrated in a late Printed Diſcourſe, the ſuffi<g ref="char:EOLhyphen"/>ciency of an excellent Poet, to inſtruct Mankind in the moſt important points they ought to believe, whilſt at the ſame time, the Author mocks at the dullneſs of a heavy and Phlegmatick Gown-man, as being unca<g ref="char:EOLhyphen"/>pable of ſuch a task; but though people may make ſuch things the ſubject of their Diſcourſe, yet I did not ima<g ref="char:EOLhyphen"/>gine any neceſſity of telling it to the world; becauſe to make good ſuch pretences, they muſt excell the endea<g ref="char:EOLhyphen"/>vours of many Ages, and
+<pb n="45" facs="tcp:59880:30"/>
+practiſe an induſtry that agrees not with their plea<g ref="char:EOLhyphen"/>ſures. I muſt confeſs I was a little ſurprized at this paſ<g ref="char:EOLhyphen"/>ſage, not only as it ſhewed a ſtrange neglect of all others but the Poets; but alſo, as it was an atttempt of great va<g ref="char:EOLhyphen"/>nity to leſſen the reſpect is paid to diſtinguiſhed Profeſſi<g ref="char:EOLhyphen"/>ons. We will allow them to be adored by their own Socie<g ref="char:EOLhyphen"/>ty, but they cannot ſo eaſily overcome the ſentiments of mankind: it is yet a pretty ſelf-flattery that we find amongſt ſome men, who be<g ref="char:EOLhyphen"/>lieve that the affairs of the Univerſe are ſo trifling and ſo
+<pb n="46" facs="tcp:59880:31"/>
+much at leiſure, as to ſtop themſelves to take a concern<g ref="char:EOLhyphen"/>ment in their affectations: He replied handſomly and ſmart<g ref="char:EOLhyphen"/>ly, on the great but affected Orator of <hi>Rome,</hi> who demand<g ref="char:EOLhyphen"/>ed of him, (meeting him in his return home) what was the vogue of <hi>Rome</hi> concerning him, and his management of affairs; to whom he anſwered, where haſt thou been all this while, O <hi>Tully?</hi> Intimating by that feigned ignorance, that <hi>Rome</hi> was a place ſo continu<g ref="char:EOLhyphen"/>ally crouded with glorious occurrences, that the worth and the ſufficiency of one man, was but like an undi<g ref="char:EOLhyphen"/>ſtinguiſhed
+<pb n="47" facs="tcp:59880:31"/>
+drop, in that bright Abiſs of noble actions; ſo whilſt the world finds the benefit of its preſent regiment, it is not at leiſure to liſten to what is offered it to the con<g ref="char:EOLhyphen"/>trary, though with the greateſt Eloquence, and art. But, Sir, I know not how to diſmiſs this Subject with theſe ſhort Remarques; and I muſt en<g ref="char:EOLhyphen"/>tertain you a little longer upon it. The Age has already allowed them the Title of excellent, and they might have ſpared it in their own writings: had any but one of themſelves, practiſed that odd ſort of civility, of ſhewing
+<pb n="48" facs="tcp:59880:32"/>
+their Readers the way to the appartments of their worth and merit, they had imme<g ref="char:EOLhyphen"/>diatly been conveyed to the Stage, and there ſeverely laſht in Comedy. But all things are handſome in thoſe we admire; beſides it is found, that ſuch a ſort of aſſurance, has a peculiar pleaſing addreſs, whilſt Modeſty ſits behind all the careſſes of this Age. They would raiſe Poeſie, (eſpecially Dramaticque) to that perfection, as to be ca<g ref="char:EOLhyphen"/>pable of Governing all the generous, noble, and accom<g ref="char:EOLhyphen"/>pliſht thoughts of mankind: what they may do for the
+<pb n="49" facs="tcp:59880:32"/>
+time to come, I am not able to ſay; but what they have already performed, comes ſhort of the juſtice of ſuch pretences. How much their art, reckoning them Drama<g ref="char:EOLhyphen"/>ticques, (for under that cha<g ref="char:EOLhyphen"/>racter they love to be eſteem<g ref="char:EOLhyphen"/>ed) has been rather an incon<g ref="char:EOLhyphen"/>venience, than an advantage to the world, any of their heavy Corrivals may make it appear. And ſince they are become the Idolaters of the Heathen Vertue, we may ſee how un<g ref="char:EOLhyphen"/>capable they are of the con<g ref="char:EOLhyphen"/>duct of Nations, only pro<g ref="char:EOLhyphen"/>feſſing Vertue. Let them tell us, if they pleaſe, what Ages
+<pb n="50" facs="tcp:59880:33"/>
+of <hi>Roman</hi> bravery were in<g ref="char:EOLhyphen"/>ſpired from the Stage; or at what memorable times, their glorious Eagles took their flights by the rules of a Dra<g ref="char:EOLhyphen"/>ma: ſuch eaſie repreſentations were then, (as Farces are now in <hi>France</hi>) for the Rout and <hi>Plebeans,</hi> whoſe ignorance made them uncapable of ſpending more advantagiouſly their vacations from the wars. But the noble Youth were continually perfecting in fields, or in the other affairs of the Common-wealth, the characters of manly glory; in which they acquired and exerciſed a Vertue, too boi<g ref="char:EOLhyphen"/>ſtrous
+<pb n="51" facs="tcp:59880:33"/>
+and robuſt for the Poe<g ref="char:EOLhyphen"/>tick Pen to manage; and if any of them built magnificent Theatres, it was only to be<g ref="char:EOLhyphen"/>get an admiration of their greatneſs amongſt thoſe, who were uncapable of under<g ref="char:EOLhyphen"/>ſtanding the advantages and dignity of their Vertue. And we remember moreover, that a great Captain was forced to ſhut up the Theatres of his Confederates, to oblige them to defend their Patrimonies, which yet they did like men who had learn'd War from the Stage: and ſuch things by the witneſſes of all records, had never an Univerſal love
+<pb n="52" facs="tcp:59880:34"/>
+and eſteem, but in effeminate and trifling Ages. But to look nearer into their pretences; the great thing in which they tri<g ref="char:EOLhyphen"/>umph, is an Heroick Play; which yet is imperfect in that Vertue of which they boaſt: they have made the three grand characters of a Hero, to be Love, Honour, and Friendſhip; but to what fan<g ref="char:EOLhyphen"/>taſtick heights they have raiſed theſe is apparent in their Po<g ref="char:EOLhyphen"/>ems. They have made Love to be the hot paſſion of an hour; tried by Chymaerical and odd experiments; unpra<g ref="char:EOLhyphen"/>cticable to the World, and rather an Idaea fit to miſguide
+<pb n="53" facs="tcp:59880:34"/>
+the leiſure and the ſentiments of Youth, than capable of giving any juſt aſſiſtance to the occaſions of Life: he that pretends to inſtruct, is not to celebrate the things that hap<g ref="char:EOLhyphen"/>pen, but the things that ought to be. Their Honour con<g ref="char:EOLhyphen"/>ſiſts in an obſtinacy to com<g ref="char:EOLhyphen"/>bate neceſſity and time; in maintaining the feiry ground of Fame; to vanquiſh Rea<g ref="char:EOLhyphen"/>ſon and generoſity in the con<g ref="char:EOLhyphen"/>tempt of life; gathering the ſpreading glory of a Hero into a ſingle punctilio. This is their Honour, as much Chy<g ref="char:EOLhyphen"/>maerical as their Love. Nei<g ref="char:EOLhyphen"/>ther is their Friendſhip leſs
+<pb n="54" facs="tcp:59880:35"/>
+idle, whilſt it conſiſts in re<g ref="char:EOLhyphen"/>ſigning an adored Miſtreſs in becoming the confident o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> amours; or a Knight Erran<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> purſuing the capricio of an other; a ſcruing up the cou<g ref="char:EOLhyphen"/>rage of a friend to thoſe fan<g ref="char:EOLhyphen"/>taſtick heights, where we can dare to periſh with him. I cannot imagine what the world has to do with ſuch Idaeas, only proper for that <hi>Elizium,</hi> ſo much the Idol of their Poetry. Moreover, there is to be obſerved the confuſi<g ref="char:EOLhyphen"/>on and defects in their Pre<g ref="char:EOLhyphen"/>cepts: Poetick Love (ac<g ref="char:EOLhyphen"/>cording to the rules of their own Art) can happen to no
+<pb n="55" facs="tcp:59880:35"/>
+Hero but once in his life, and for all the reſt of his years he remains untaught; the Poet interpoſes critically whilſt he has an Amour in his head, but he abandons him unworthily, when he ſhould perfect the characters of higheſt glory: he teaches him to ſtrut and bluſter, and to ſpeak half a dozen Verſes when he dies, but he guides him not at all in the Labyrinths of difficult affairs. He tells him what is true Honour, on the fanta<g ref="char:EOLhyphen"/>ſtick point he ſtands; but he cunningly omits to guide his mind on the bright traverſes of a publick good: he is buſie
+<pb n="56" facs="tcp:59880:36"/>
+about youth, whilſt the Re<g ref="char:EOLhyphen"/>gions of Manhood and of Age are left without a path, or any track of Vertue and Re<g ref="char:EOLhyphen"/>nown: when the Gallant is weary of living like a Beaſt, when he has finiſhed the Love and the Atheiſm of his youth, the Poet has left a dark ſpace before him, without the light of any precept or inſtruction. But all their Heroes muſt die when they are young, or live ingloriouſly when they have finiſhed their youthful In<g ref="char:EOLhyphen"/>trigues. Beſides, were their Heroick Vertue perfect, it could concern but a few per<g ref="char:EOLhyphen"/>ſons in a Nation, whilſt all
+<pb n="57" facs="tcp:59880:36"/>
+the leſſer Scholars muſt re<g ref="char:EOLhyphen"/>main untaught: what is left for them but the idle intrigues of Farce and Comedy; filled with impertinences, and the moſt loathſome Vices; and if they pretend to inſtruct by this, it muſt be by the rules of contrary: Certainly never any that undertook ſo impor<g ref="char:EOLhyphen"/>tant a conduct, diſcharged it with leſs generoſity and fide<g ref="char:EOLhyphen"/>lity. And in fine, if we may judge of the cauſe by the effect, we ſhall find that man<g ref="char:EOLhyphen"/>ner of cenſure very diſadvan<g ref="char:EOLhyphen"/>tagious to their art; where are the Heroes they have fa<g ref="char:EOLhyphen"/>ſhioned by their Precepts?
+<pb n="58" facs="tcp:59880:37"/>
+What proofs do we receive of that Vertue with which they have inſpired them? I wiſh we had no reaſon to complain of the contrary, and that the Groſſneſs of their Drama<g ref="char:EOLhyphen"/>ticque Vices were not a bur<g ref="char:EOLhyphen"/>then heavy to the world; inſtead of teaching them to burn like Heroes, they have made them love like beaſts; and all the induſtry of the Stage, has helpt them to no<g ref="char:EOLhyphen"/>thing more refin'd in that paſ<g ref="char:EOLhyphen"/>ſion, than what is common to the Goat, and the Bull. Ye mighty Directors of our Vertue! do ye not bluſh to ſee the dullneſs of your Scho<g ref="char:EOLhyphen"/>lars?
+<pb n="59" facs="tcp:59880:37"/>
+and lament to find ſo much perverſneſs, in times when there flouriſh ſuch able <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oets? You throw away <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>our glorious Precepts, whilſt <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ou talk of Heroickneſs, to <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n impertinent and groveling Generation. Or is it, Sir, con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ary to their inclinations that <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey write Heroick Poems; whilſt a Poetick fury carries them to celebrate thoſe Idaeas. which they repent of, and <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ecant in a looſe Comedy: <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd without doubt they as well underſtand the capacity of the Age, as their own <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>umour in ſuch actions: if <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey did not, they would
+<pb n="60" facs="tcp:59880:38"/>
+never talk ſo unprofitably to them as they do; for wha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> benefit are they like to receiv<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> from ſuch trifling inſtructi<g ref="char:EOLhyphen"/>ons, as correct writing with out the prepoſition at the en<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of a Verſe, or the niceties o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Grammar, as if a Hero were to ſpeak with that exactneſs as if he ſtood in fear of a Firu<g ref="char:EOLhyphen"/>la. Moreover, what is it o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> moment to the inſtruction o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> this Age, whether <hi>Achilles</hi> drew his whinyard at <hi>Agamemnon<g ref="char:punc">▪</g>
+               </hi> or whether <hi>Rinaldo</hi> endange<g ref="char:EOLhyphen"/>red with his, the home-ſpu<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Breeches of <hi>Godfry</hi> of <hi>Boloigne;</hi> what does this ſignifie to the practical Vertue of Gentle<g ref="char:EOLhyphen"/>men?
+<pb n="61" facs="tcp:59880:38"/>
+Thoſe who take upon them to form the Genius of an Age, are to conſider what is uſeful, and like to occur, and they ought to decline Idaeas, that fly too high for practice and experience; ſuch <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>airy perfections, like Ro<g ref="char:EOLhyphen"/>mances, may fill the head with chymaeras; but they can <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ill be the Directors of action, which is the beauty and the life of Precepts. Beſides, all prudent managers of pub<g ref="char:EOLhyphen"/>licque ſentiments, are to con<g ref="char:EOLhyphen"/>ſider, that in ſuch Draughts they muſt exhibit to after times, what they will admire and imitate, or what they
+<pb n="62" facs="tcp:59880:39"/>
+will explode and ſcorn; for he is too ſhort ſighted, who only accommodates his Pre<g ref="char:EOLhyphen"/>cepts, to the eaſie and the vi<g ref="char:EOLhyphen"/>cious humour of an Age, and forms not that, which muſt in<g ref="char:EOLhyphen"/>dure the ſhock of an impartial and ſevere Poſterity: and I believe ſome of our Poets imagine that the inconvenien<g ref="char:EOLhyphen"/>cies of their preſent inſtructi<g ref="char:EOLhyphen"/>ons, will be ſo ſenſibly pre<g ref="char:EOLhyphen"/>judicial to the next Age, as to make them abhor the fatal intrigues of this; who will beſides, have reaſon to mock at thoſe ſlieght draughts of Vertue, and thoſe airy thin perfections, which will be
+<pb n="63" facs="tcp:59880:39"/>
+exceeded by the leaſt reality: if they ſay that this is not required from a Poet whoſe part is to pleaſe; we anſwer; That it is from a Philoſopher, and from thoſe who pretend to direct whole Generations. And ſince they have raiſed their ambition to the univerſal Monarchy of wit, it becomes them to invent a Regiment, ſuitable to that character; and not expect with a few Poems to command all the Regions of Learning. Or is it not ſo much their deſire to rule, as to deſtroy? Is it their ambition, (like his that burnt the Temple of <hi>Diana</hi>) to be
+<pb n="64" facs="tcp:59880:40"/>
+known the Authors of the ruine of thoſe excellent princi<g ref="char:EOLhyphen"/>ples which ſo many Ages have honoured and revered; and to proſcribe all Vertue, Sobriety, &amp; antient honour; as if a man were to build his reputation on the quickſands of vitious &amp; inglorious practices; eſteem<g ref="char:EOLhyphen"/>ing it a weakneſs worthy of reproach, to be moderatly wicked, or to boggle at an impiety, whoſe degrees are hardly to be matcht in Hell <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Some there are who by ſuch prodigious accompliſhments, having gotten great and ad<g ref="char:EOLhyphen"/>mired names, become the Patrons, and Darlings of the
+<pb n="65" facs="tcp:59880:40"/>
+Youth, who willingly ſacri<g ref="char:EOLhyphen"/>fice their early Vertue, their Intereſts, and the repoſe of their Family, to their mighty reputations; and think it enough to make them wear the Title of wits for ever, if they but be admitted to drink, and ſwear, with their glorious Maſters. But I now grow weary, Sir, of taking a farther account of ſuch actions, which yet they have not more fail'd in, than in the principles of the beſt prudence. And thoſe who debauch and effeminate Nations, may be pleaſing, but they can never be wiſe and generous Directors: they ar<g ref="char:EOLhyphen"/>gue
+<pb n="66" facs="tcp:59880:41"/>
+ſtrangly who affirm, that it is neceſſary for ſome times to be laid to ſleep, free from the thoughts of Vertue and glory, thereby to bury faction and ſedition; ſince nothing can be more the ſecurity and renown of juſt and excellent Princes, than the manlineſs and gallantry of their Sub<g ref="char:EOLhyphen"/>jects. Moreover, it is a dou<g ref="char:EOLhyphen"/>ble indiſcretion, to ſoften and charm our Youth with luxu<g ref="char:EOLhyphen"/>ries and pleaſures, ſo near the beſt grounded Ambition of Europe; degenerating the antient Vertue of the <hi>Engliſh,</hi> whilſt others are brightning and illuſtrating of theirs:
+<pb n="67" facs="tcp:59880:41"/>
+thus to miſguide ſo conſidera<g ref="char:EOLhyphen"/>ble a part of the Univerſe, only for the Fame of having the conduct, is what an excel<g ref="char:EOLhyphen"/>lent Poet has no reaſon to glo<g ref="char:EOLhyphen"/>ry in; whom we muſt allow to excell in his way, though with no juſtice to claim to his Art, the directing of Ages. Neither can I imagine, what ſhould tranſport them to aſ<g ref="char:EOLhyphen"/>ſume ſo painful a Dominion over all the Provinces of Learning; 'tis not agreeable to the delicacy of their living, to be troubled with the affairs of ſo vaſt an Empire: they had better leave it to that Ad<g ref="char:EOLhyphen"/>miniſtration under which it
+<pb n="68" facs="tcp:59880:42"/>
+then appropriate it as the task of that vivacity and fan<g ref="char:EOLhyphen"/>cy, which like the Gallicque briskneſs is quickly tired. But I have kept you too long, Sir, in this conſideration; I will lead you to the converſation which is ſometimes found amongſt thoſe perſons, whoſe pretences are ſo haughty: and who live in great neglect of their own Idaeas; contra<g ref="char:EOLhyphen"/>dicting in their lives, what they magnifie and extoll in their Poetry: I will not ſay it of that Perſon whom we juſt now mentioned; but we can too truly affirm it of many of that Art.</p>
+            <p>
+               <pb n="69" facs="tcp:59880:42"/>The firſt great ſubject of their entertainments is A<g ref="char:EOLhyphen"/>theiſm; which is not now owned with a bluſh, but on the contrary, eſteemed a piece of gallantry, and an effect of that extraordinary wit in which we pretend to excell our Anceſtors: the great prin<g ref="char:EOLhyphen"/>ciple of theſe ſentiments, is matter of ſtrange opinion about the Creation of the World; ſome following <hi>Ari<g ref="char:EOLhyphen"/>ſtotle,</hi> others <hi>Epicurus.</hi> Thoſe who imagine that the world did never begin, have took the belief from the imperious Stagerite, rather out of an unknowing admiration of his
+<pb n="70" facs="tcp:59880:43"/>
+name, than any juſt reaſon that has accompanied the aſſerti<g ref="char:EOLhyphen"/>on: for to what reaſon can it pretend; or how is it likely, that the World was Eternal, when the memory of all things are but of Yeſterday! (for to Eternity, the ſmall portion of time Recorded, merits no larger a name) how has it come to paſs, that ſo many thouſands of Ages ſhould leave no Records be<g ref="char:EOLhyphen"/>hind them, nor no Monuments of all they did, nor all they had deſign'd to do: the moſt antient accounts that are pro<g ref="char:EOLhyphen"/>duced, except by the Jews, are the <hi>Thaeban</hi> War: and the
+<pb n="71" facs="tcp:59880:43"/>
+great Funerals of <hi>Troy,</hi> (acti<g ref="char:EOLhyphen"/>ons of times eaſily compu<g ref="char:EOLhyphen"/>ted:) and which if they are not fabulous, they appear at leaſt ridiculous in the Records of the Poets. But how is it likely, that Eternity ſhould be the Parent of nothing more antient, nor more conſider<g ref="char:EOLhyphen"/>able in that vaſt flux of Ages, many great Empires muſt have roſe, flouriſht, and de<g ref="char:EOLhyphen"/>clined; many uſeful and ex<g ref="char:EOLhyphen"/>cellent Arts muſt have been invented, and practiſed; and many juſt, as well as bloody Laws, muſt have been eſta<g ref="char:EOLhyphen"/>bliſht and executed. Some man or other, in ſo many
+<pb n="72" facs="tcp:59880:44"/>
+births, muſt have been ſo conſiderable for his Vertue, and his grand Actions, as to leave at leaſt his name, and ſome dark ſtories of his deeds, from one Age to another. Some Tyrant for barbarous and inhumane cruelties, muſt have been ſo odious and ſo much deteſted, as to have left a hateful memory and name to after times: but the good, and the bad, have been equally forgotten; and nei<g ref="char:EOLhyphen"/>ther ambition, greatneſs, va<g ref="char:EOLhyphen"/>lour, riches, nor beauty, had then the advantages they have ſince acquired, of perpetu<g ref="char:EOLhyphen"/>ating the memory of their
+<pb n="73" facs="tcp:59880:44"/>
+owners: this great ſilence of all things, but what ſtand ſo <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ear the preſent Ages, is a moſt convincing proof of the Worlds Creation, and of its Creation not very long ago. The other opinion, though it is moſt imbraced by this Generation, yet it is ſo ridi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ulous, that a man of reaſon ſhould be aſhamed to owne it. which affirms, that ſeveral Troops and Parties of Atoms, (raiſed firſt by an unknown Commiſſion) after they had rang'd the field of an infinite ſpace, did at laſt under the conduct of chance alone, (for they allow no greater a cauſe
+<pb n="74" facs="tcp:59880:45"/>
+to have commanded in the morning of the Univerſe.) rendezvous in a moſt glorious and beautiful World; that ſo many pieces of ſuch admira<g ref="char:EOLhyphen"/>ble workmanſhip, ſo many buſineſſes, and ſo many of<g ref="char:EOLhyphen"/>fices, of the beginning, main<g ref="char:EOLhyphen"/>tenance, and preſervation of all the kinds of life, had no other cauſe but an undeſign<g ref="char:EOLhyphen"/>ing impetuous chance: yet this opinion, as ridiculous as it is, is become the principle of their grandeſt debauch<g ref="char:EOLhyphen"/>ments; on which they Diſ<g ref="char:EOLhyphen"/>courſe with ſo much liberty, and bluntneſs, as is the aſto<g ref="char:EOLhyphen"/>niſhment of ſerious perſons.
+<pb n="75" facs="tcp:59880:45"/>
+But they equally hate that modeſty in Learning, which they do in Love; and they ſtrive to have their Souls equally debaucht as their Bo<g ref="char:EOLhyphen"/>dies; hazarding the one in all opinions, as the other with all exploits. A Vertuous perſon how ever ought to be careful of the innocence of his mind; leſt there may, nay there will, come a time, when he muſt want thoſe tranquilli<g ref="char:EOLhyphen"/>ties: which is moreover, no ſleight admonition for our wits, eſpecially ſince ſome of them (like <hi>Caligula</hi>) are Atheiſts only in fair weather.</p>
+            <p>Their next great entertain<g ref="char:EOLhyphen"/>ment
+<pb n="76" facs="tcp:59880:46"/>
+is Marriage, which they treat moſt ingloriouſly, af<g ref="char:EOLhyphen"/>firming it to be the clogg of generous minds; and the grea<g ref="char:EOLhyphen"/>teſt impediment to the ambi<g ref="char:EOLhyphen"/>tion of Heroes: they believe mankind has ſuffered in no<g ref="char:EOLhyphen"/>thing more, than in the re<g ref="char:EOLhyphen"/>ſtraints and captivities of Wedlock; and that no free<g ref="char:EOLhyphen"/>dome ought to be more dear to his nature, than wild and rambling Luſts. They think the World took ill advice, when it abridged it ſelf of ſo ſweet a pleaſure, by yielding to an Inſtitution, that ſo much dulls and baffles the Spirits; and though they are them<g ref="char:EOLhyphen"/>ſelves
+<pb n="77" facs="tcp:59880:46"/>
+the iſſue of theſe Beds, yet they cannot believe but their conſtitution had been much more ſprightly and ge<g ref="char:EOLhyphen"/>nerous, if they had been born by a Miſtreſs; and that their inclinations had been more elevated and high to great un<g ref="char:EOLhyphen"/>dertakings: they believe that without doubt, the Creſcents of the <hi>Ottomans,</hi> had before now been filled up with blood, and ſlaughters, if there had been ſuch a generation born into theſe parts of the World; and that their arms had ſuc<g ref="char:EOLhyphen"/>ceeded as fortunatly as thoſe of the <hi>Macedon.</hi> What ever was the belief of their Fathers,
+<pb n="78" facs="tcp:59880:47"/>
+they reſolve to give the World the proofs of a better judge<g ref="char:EOLhyphen"/>ment, and a braver Soul; which makes them ſcoff at Wedlock, priding themſelves in their own freedome; and with a ſcornful pity, deſpiſing the Captives of that ſtate: they eſteem no man ridiculous in the Town, but the votary of Matrimony; and he that happens to be ſo of their own Fraternity, if he does not ſigh under that yoke, if he does not curſe the folly of his nature, that betrayed him to ſo grand a ſlavery, they diſcard him as unfit for their converſations: and indeed they have found
+<pb n="79" facs="tcp:59880:47"/>
+perſons ridiculous enough to do as they would have them; to whom they repreſent, that the ſlighting of the pleaſures of Marriage, is a greatneſs of Soul, that ſcorns to be impo<g ref="char:EOLhyphen"/>ſed on; but that the purſuing variety of amours, is the pe<g ref="char:EOLhyphen"/>culiar guſto of a great wit: for that is a principle from which they muſt not recede, that all their extravagancies, are not only the pleaſing of their Humours, but inſepara<g ref="char:EOLhyphen"/>ble proofs of extraordinary capacities: they muſt believe that it was an effect of their Fineneſs and Dexterity, to bring wenching into ſo great
+<pb n="80" facs="tcp:59880:48"/>
+an eſteem, and that nothing leſs than their Induſtry and Arts, could have laid Matri<g ref="char:EOLhyphen"/>mony under ſo much re<g ref="char:EOLhyphen"/>proach, as the preſent Age does find it, this is their buſi<g ref="char:EOLhyphen"/>neſs, in their converſes, the Play Houſe, and all their en<g ref="char:EOLhyphen"/>tertainments; where if they have occaſion to repreſent to the Gallants a Comical fop, they make him one who is wheadled into Matrimony. Vain and triffling Politicians! whom the World has ſo much reaſon to thank for the advan<g ref="char:EOLhyphen"/>tages you procure it, what ſhall it do with your ſenti<g ref="char:EOLhyphen"/>ments? except unravel the
+<pb n="81" facs="tcp:59880:48"/>
+richeſt imbroideries of anti<g ref="char:EOLhyphen"/>ent generoſity and prudence; and make all its affairs as ridi<g ref="char:EOLhyphen"/>culous as your practices; do you deſire it ſhould be ſo half<g ref="char:EOLhyphen"/>wited, as for your allurements to betray the charge of ſo ma<g ref="char:EOLhyphen"/>ny Ages? But yet, Sir, the progreſs they have already made is very deplorable; the contempt of Wedlock in the Town grows very common; and we have reaſon to accuſe the great managers of that Humour: they would do well to ſatisfie us, either what nobleneſs, what gratitude, or wiſdom they can aſcribe to their practices; they are very
+<pb n="82" facs="tcp:59880:49"/>
+rude and diſobliging to a con<g ref="char:EOLhyphen"/>ſiderable part of the Univerſe; and offer mankind a great af<g ref="char:EOLhyphen"/>front. They are ſtrangely reſpectful to their Fathers, who liv'd in an Age better qualified; and who convey'd them hither in the circles of that deſpiſed Wedlock: had they not ſtood on the founda<g ref="char:EOLhyphen"/>tions of blood, and fortune, but been forc'd to have roſe by their induſtry and merit, the World had poſſibly look'd upon them with contempt, in a low Sphear. And then how do they diſcharge the chara<g ref="char:EOLhyphen"/>cter of wiſe managers? With<g ref="char:EOLhyphen"/>out doubt, Marriage is the
+<pb n="83" facs="tcp:59880:49"/>
+foundation to times occurren<g ref="char:EOLhyphen"/>ces, and the principle of ex<g ref="char:EOLhyphen"/>cellent affairs; and if this foun<g ref="char:EOLhyphen"/>tain ſhould be fatally corrupt, it would injure conſiderably, all the advantages that flow from it: for if any Generati<g ref="char:EOLhyphen"/>on ſhould come into the World promiſcuouſly, all things would be unſorted and mixt, and the claims of eno<g ref="char:EOLhyphen"/>bled Vertue, Blood, and poſ<g ref="char:EOLhyphen"/>ſeſſions muſt be made unſuc<g ref="char:EOLhyphen"/>cefsfully; all things muſt be<g ref="char:EOLhyphen"/>gin again, or yield to ſuch a diſorder and confuſion, as would ſoon involve the moſt flouriſhing Nations in ruine and diſtractions: thus what
+<pb n="84" facs="tcp:59880:50"/>
+the prudence and the induſtry of many Ages, had formed into a peaceful, and a happy Regiment, thereby rendering the ſucceſſion of Familie<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> tranquil and ſecure, would be broken and diſordered, and the Parent can leave to hi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> children only the adventure of an uncertain condition and that Family that wa<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Rich, Potent, and eſteem'd mixing its blood inconſiderat<g ref="char:EOLhyphen"/>ly, loſes inſenſibly thoſe ad<g ref="char:EOLhyphen"/>vantages; and he that would raiſe Monuments of excellen<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> things, muſt not only begin anew, but leave them unfi<g ref="char:EOLhyphen"/>niſhed when he dies; for i<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="85" facs="tcp:59880:50"/>
+he has club'd to the uncertain iſſue of a Harlot, yet they can pretend no right in the grandeurs of their diſputed Fathers; and no glory, re<g ref="char:EOLhyphen"/>putation, and vertue would be perfect, whilſt it has only the aſſiſtances of one Age, and thoſe diſcouraged by the conſideration of their decay: thus in the <hi>Ottoman</hi> Empire, whilſt the greateſt Miniſter has conveyed nothing to his children, through all their ſucceſſions, there remain no Monuments of antient vertue, greatneſs, or power, whilſt the children are not permitted <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o inherit any of the acquiſts
+<pb n="86" facs="tcp:59880:51"/>
+of their Fathers: and he that is took up to the higheſt places of Honour, and command, conſiders not that he is to bear himſelf ſuitable to the Fame, and Vertue of his Anceſtors; nor that he is to leave the ſame dignities and reputation to his children, but he lives unjuſtly, careleſly, and voluptuouſly, and is only intent on his pre<g ref="char:EOLhyphen"/>ſent ſatisfaction: and the ſame it would be in various injoy<g ref="char:EOLhyphen"/>ments, and the neglects of Marriage; from which ap<g ref="char:EOLhyphen"/>pears the imprudence of thoſe who pretend to inſtruct this Age: and we have reaſon to believe, that either ſome ex<g ref="char:EOLhyphen"/>traordinary
+<pb n="87" facs="tcp:59880:51"/>
+event muſt inter<g ref="char:EOLhyphen"/>poſe to vindicate ſuch excel<g ref="char:EOLhyphen"/>lent affairs, or elſe they are ſtill to decline, till they min<g ref="char:EOLhyphen"/>gle ruines with the Univerſe: thoſe, Sir, who think theſe Remarks trifling, conſider not the ſtrange progreſs of Vices; for though it is chiefly amongſt perſons ſomewhat above the vulgar, that Marri<g ref="char:EOLhyphen"/>age is ingloriouſly treated, yet thoſe diſtempers will deſcend from the noble parts, as faſt as the capacities of inſtruments can convey them down: as we ſee it has been already in prodigious Swearing, and other crimes. And were not
+<pb n="88" facs="tcp:59880:52"/>
+wiſdom and nobleneſs ſtran<g ref="char:EOLhyphen"/>gers to this Age; thoſe who pretend to the faireſt endow<g ref="char:EOLhyphen"/>ments of the mind, would never practiſe the greateſt fol<g ref="char:EOLhyphen"/>lies of it: I cannot imagine what they would do with that wild liberty they endeavour to introduce; 'tis a ſtrong ſort of leveling they wiſh to ſee in the World; and there needs a great eloquence to make ap<g ref="char:EOLhyphen"/>pear the benefits it would re<g ref="char:EOLhyphen"/>ceive from it: hitherto we have dreaded it as a Torrent that would quite overflow the faireſt incloſures of humane nature; and we cannot per<g ref="char:EOLhyphen"/>ceive their own ability to
+<pb n="89" facs="tcp:59880:52"/>
+ſtem that Tempeſt: but they care only for the preſent; and think not themſelves at all oblig'd to look after the in<g ref="char:EOLhyphen"/>tereſts of the world. All that can be ſaid to theſe men, is, that if their fore-fathers had been of their Temper, they might now have been Bar<g ref="char:EOLhyphen"/>bers, or Grooms, or left to the Pariſh, who pretend to fairer Titles.</p>
+            <p>The next great ſubject of their Diſcourſes, is the diſho<g ref="char:EOLhyphen"/>nours of Women; thoſe whom they have not overcome with their addreſſes, they will be ſure to conquer with their tongues; and hardly leave
+<pb n="88" facs="tcp:59880:53"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="89" facs="tcp:59880:53"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="90" facs="tcp:59880:54"/>
+an honeſt Woman in the Town: they are ſo charita<g ref="char:EOLhyphen"/>ble to think, there never was any ſuch, but thoſe who liv'd ſolitarily, and were never at<g ref="char:EOLhyphen"/>tacqu'd by a powerful Court<g ref="char:EOLhyphen"/>ſhip; and they particularly attribute want of theſe ſucceſ<g ref="char:EOLhyphen"/>ſes to the undexterous Aſſaul<g ref="char:EOLhyphen"/>ter; but they know not how to believe, that where any ſo redoubted as themſelves, laid ſiege to a Woman, that ſhe was ever able to withſtand the force of their careſſes: This is a thing that makes up a great part of their devertiſe<g ref="char:EOLhyphen"/>ment, to recount their parti<g ref="char:EOLhyphen"/>cular victories; which per<g ref="char:EOLhyphen"/>haps
+<pb n="91" facs="tcp:59880:54"/>
+to oblige poſterity, they are ſo kind as to record them in ſome laſcivious Songs: and indeed to give them what they call their due; they obtain too many conqueſts of this na<g ref="char:EOLhyphen"/>ture; as it is not to be expected otherwiſe, from an aſſiduity and an induſtry great as theirs. But yet, with their favour, it favours but little of good breeding, or good nature, (for higher conſiderations are non<g ref="char:EOLhyphen"/>ſence to them) to reap the effects of anothers eaſineſs or kindneſs, and then to ſpread it in every company; whilſt none but thoſe perſons who are ſtrangly vitious, can de<g ref="char:EOLhyphen"/>light
+<pb n="92" facs="tcp:59880:55"/>
+in that ſociety, where nothing but the diſhonours and ſcandals of Women are conſtantly repeated; which beſides the ſubject, is done in a language ſo innocent, mo<g ref="char:EOLhyphen"/>deſt, and ingenious, that it is ſtrange ſuch great wits, ſhould delight in ſo barren concepti<g ref="char:EOLhyphen"/>ons: they pretend to admire the ſoaring, and refinedneſs of the fancy, but I know never a Plowman, but might deli<g ref="char:EOLhyphen"/>ver himſelf with as much va<g ref="char:EOLhyphen"/>riety of imagination, as they do upon theſe ſubjects: and were it not for that ſtrange pleaſure, they find in exceed<g ref="char:EOLhyphen"/>ing the preſcriptions of vertue,
+<pb n="93" facs="tcp:59880:55"/>
+and modeſty, and in ſcorning the limits are ſet to the extra<g ref="char:EOLhyphen"/>vagancies of men, they would bluſh themſelves at ſuch a ſort of ingenuity: I do believe, that never in any Age, was there ſuch a violent and uni<g ref="char:EOLhyphen"/>verſal thirſt after the Fame of being wits, and yet no Age has poſſible diſcharg'd it ſelf, with leſs real applauſe in thoſe pretences; wit, though it be properly the vivacity, and the agreeableneſs of the fancy, yet there ought to be<g ref="char:EOLhyphen"/>long ſomething more to that high quality, than a little flaſh and quibble, which yet is all that this Age has bid for
+<pb n="94" facs="tcp:59880:56"/>
+that mighty Fame: and it is not to be queſtion'd, but that the next generation, will be at a loſs to find out that wit of which their Fathers ſo much boaſted: we affect the beautiful trimming of fo<g ref="char:EOLhyphen"/>raign words; the youth, and pleaſantneſs of the fancy, but the ſubject is contemptible on which this dreſs is beſtowed; which with time wearing ſul<g ref="char:EOLhyphen"/>lyed and out of Mode, no<g ref="char:EOLhyphen"/>thing will appear ſo ridiculous as that unvalued ſubject; of which we may ſay, as the Poet did once of the Woman; that it is the leaſt part of it ſelf. Beſides, when they are
+<pb n="95" facs="tcp:59880:56"/>
+witty, they are alwaies be<g ref="char:EOLhyphen"/>holding to Monſieur; in which they equally diſcredit themſelves, and their Nation: to place wit in a Mode of words, is little commendati<g ref="char:EOLhyphen"/>on to the fancy of him that wears it; a ſufficient quanti<g ref="char:EOLhyphen"/>ty of theſe words are uſed every day by a blockhead, whilſt yet they penetrate into the nature of nothing, but like Arrows ſhot into the Air, fall idly back upon the Earth: and then their Nation is little beholding to them, whilſt they undervalue its antient, and unaffected language: I cannot but think, that our
+<pb n="96" facs="tcp:59880:57"/>
+Anceſtors underſtood them<g ref="char:EOLhyphen"/>ſelves as well as we do, and ſpoke as much to the content and pleaſure of thoſe they en<g ref="char:EOLhyphen"/>tertain'd; who yet larded not their Diſcourſes with ends of <hi>French;</hi> they were careful of the true glory of <hi>Engliſh</hi> men, to juſtifie the Dominion of their Language, equal to the Dominion of their Seas: me<g ref="char:EOLhyphen"/>thinks our Nation bluſhes, and appears out of counte<g ref="char:EOLhyphen"/>nance to ſee it ſelf neglected; whilſt the leight Gallia receivs all the Courtſhips of its un<g ref="char:EOLhyphen"/>grateful youth, and it has reaſon enough for a juſt indig<g ref="char:EOLhyphen"/>nation; whilſt it is done with
+<pb n="97" facs="tcp:59880:57"/>
+the perverting of a better Ge<g ref="char:EOLhyphen"/>nius; and a rendering that fantaſtick which was before ſerious and manly. As every thing which is natural is the moſt handſom, ſo it is free from the follies of affectation; and as much as we have ſtudi<g ref="char:EOLhyphen"/>ed to Ape the <hi>French,</hi> we have yet only reach'd that perfecti<g ref="char:EOLhyphen"/>on as to be ridiculous: be<g ref="char:EOLhyphen"/>ſides, they look upon us as a Nation to whom they give the Laws of Mode; and preſently raviſh with tran<g ref="char:EOLhyphen"/>ſports from them, the ſmall<g ref="char:EOLhyphen"/>eſt trifles they are pleaſed to countenance: this is a great pride to them,
+<pb n="98" facs="tcp:59880:58"/>
+whilſt they ſee themſelves to preſide over our Geni<g ref="char:EOLhyphen"/>us, and to guide it into all the faſhions which their rambling fancies take. The <hi>Spaniard</hi> (though affected enough in this way) yet in this underſtands his reputati<g ref="char:EOLhyphen"/>on; whilſt having diſputed with them for the univerſal Monarchy, ſcorns to truckle under the Laws of their Mode; and ſullenly keeps to a faſhion of ſome hundreds of years, rather than to appear inclined to the lightneſs of his neighbours. But it were bet<g ref="char:EOLhyphen"/>ter to let them command our dreſſes, than our Language;
+<pb n="99" facs="tcp:59880:58"/>
+becauſe theſe are to be altered by time, whilſt the other ſhould be left pure and unble<g ref="char:EOLhyphen"/>miſht to poſterity; from whom we betray the glory of our Fathers. This ought to be the principle concernment of the wits; becauſe as they guide the inclinations of the youth, ſo they are capable of delivering themſelves ſweetly and pleaſantly, in the native beauties of our Language; and can render their concepti<g ref="char:EOLhyphen"/>ons lovely, without the paint and imbelliſhments of <hi>France:</hi> 'tis they muſt reſcue our cap<g ref="char:EOLhyphen"/>tived Language from the fet<g ref="char:EOLhyphen"/>ters of that Tongue: which
+<pb n="100" facs="tcp:59880:59"/>
+would be more generous in them, and procure them a greater Fame, than to make their boaſt (as I know ſome of them do) that he cannot write well in our Language, who underſtands not the <hi>French.</hi> It is no wonder to hear a Fop, pride himſelf in ſtore of <hi>French</hi> words; be<g ref="char:EOLhyphen"/>cauſe his memory is all the fountain of his ſence; but it is not ſo with the Poets, who pretend to the moſt elevated and moſt refined notions. I ſpeak not this, Sir, out of a diſreſpect to that Language; highly neceſſary to all that frequent Courts; and that
+<pb n="101" facs="tcp:59880:59"/>
+have to do in the important affairs of the world: but yet, where that and our own Lan<g ref="char:EOLhyphen"/>guage dwell together in the ſame capacity, like the cur<g ref="char:EOLhyphen"/>rents of the <hi>Savas,</hi> and <hi>Danu<g ref="char:EOLhyphen"/>bius,</hi> they ſhould never mix in all their converſations.</p>
+            <p>But, Sir, I have kept you long enough in theſe conſide<g ref="char:EOLhyphen"/>rations. You may now juſt<g ref="char:EOLhyphen"/>ly expect ſomething to divert you. Let us then compare ſome of the ordinary Town Adventures, and Exploits with the ſentiments before menti<g ref="char:EOLhyphen"/>oned; and indeed, it is their actions that will be moſt ca<g ref="char:EOLhyphen"/>pable of tranſporting you to
+<pb n="102" facs="tcp:59880:60"/>
+a glorious emulation; for though the ſweetneſs and the beauty of Diſcourſe, is a thing very enamouring, yet action is the darling of youth, and of a ſprightly diſpoſition: <hi>Rome</hi> found its old men buſi<g ref="char:EOLhyphen"/>neſs for their Eloquence, in reſcuing diſtreſſed Clients, and in appeaſing the diſorders of the people; but the youth were continually buſied in the Wars, and generous at<g ref="char:EOLhyphen"/>chievements; and indeed all Nations, have eſteemed wit, of a ſecond venter to Arms: now, Sir, if you have this ambition about you, you ſhall not fail of meeting in the
+<pb n="103" facs="tcp:59880:60"/>
+Town with ſtrange ſatisfacti<g ref="char:EOLhyphen"/>ons. There are men, who begin not the day till noon; the morning affording the ſweeteſt ſleeps, and the pillow being the beſt place to take Counſel on, for the adven<g ref="char:EOLhyphen"/>tures of the evening: that of the Play-houſe is the firſt Stage, where they can ſupport the repetition of an old Play, if they can but make Love to a new Beauty: they come not hither to learn wit, for they preſide over the Language of the Stage: but they come like true Knights Errant, in ſearch of adventures; and their Humours are ſo much allied
+<pb n="104" facs="tcp:59880:61"/>
+to the Romance, that they can do nothing without the Diſtreſſed Lady; where if any thing heightens their ap<g ref="char:EOLhyphen"/>petite, and pleaſes their fan<g ref="char:EOLhyphen"/>cy, by the little ſleights of a Maſque, or ſome pretty ſtra<g ref="char:EOLhyphen"/>tagem, they become eager of the Quarry, and apply them<g ref="char:EOLhyphen"/>ſelves to all the arts of that Game: but their principal buſineſs in this Houſe, is to meet their Friends, and to joyn themſelves in a Squa<g ref="char:EOLhyphen"/>dron for ſome gallant exploit: which perhaps is firſt at a Houſe of pleaſure, and then the <hi>French</hi> Houſe; where ha<g ref="char:EOLhyphen"/>ving repeated their former
+<pb n="105" facs="tcp:59880:61"/>
+gallantries, and heightened their courage, with eloquence and Wine, they are fit to ga<g ref="char:EOLhyphen"/>ther freſh Bays for the Gar<g ref="char:EOLhyphen"/>land of their triumphs; and to add a new luſtre to their former actions. In theſe brave Humours, has many a Watchman been forc'd to meaſure his length upon the ground; the poor Conſtable been put beſide the gravity of his Interogatories;—Many a timerous Female has been forc'd to fill the air with ſhrieks, and complainings: whilſt during this cloſe en<g ref="char:EOLhyphen"/>gagement, the thundering Cannon of their Oaths, have
+<pb n="106" facs="tcp:59880:62"/>
+with horrour fill'd the neigh<g ref="char:EOLhyphen"/>bourhood: and when they have obtain'd ſuch victories as theſe, leſt they ſhould not find an Hiſtorian capable of Recording to the life, their noble performances, they are committed to the Pages of a Sonnet: whilſt our Gallants, like the <hi>Roman,</hi> conquer and write at the ſame rate; and indeed to ſuch a courage, ſuch an eloquence is neceſſary; leſt the life and vigour of their actions ſhould languiſh in the dullneſs of ordinary Stiles. It is, Sir, to ſuch dreadful things as theſe you muſt be bred, if you covet ſuch com<g ref="char:EOLhyphen"/>pany;
+<pb n="107" facs="tcp:59880:62"/>
+they caſheir all that are faint hearted, or unfit for the Wars, or that have not a body capable to indure the Diſcipline, and toils of their Camp: to be a great wit, is but an imperfect qualification, for they aſſociate with none for ſpeculative pleaſures: and eſteem him ignoble, who dares not act at the rate he can di<g ref="char:EOLhyphen"/>ctate: which has been found in the fortune of ſome mo<g ref="char:EOLhyphen"/>dern wits, who have been neglected, becauſe unfit for exploits: ſo that if you would joyne your ſelf to the conver<g ref="char:EOLhyphen"/>ſation of theſe Gallants, you muſt well examine your ſuf<g ref="char:EOLhyphen"/>ficiency
+<pb n="108" facs="tcp:59880:63"/>
+and courage for the higheſt atchievement. There is moreover, another task be<g ref="char:EOLhyphen"/>longs to him that accompanies with them; and will paſs for a wit in the Town, that is, you muſt write a Play: which is a kind of fantaſtical neceſſity impoſed by faſhion on a Gen<g ref="char:EOLhyphen"/>tleman, who is obliged to ha<g ref="char:EOLhyphen"/>zard his abilities, on ſuch niceties of Fame, &amp; Humour: the caſe is not the ſame with him as with a mercenary Po<g ref="char:EOLhyphen"/>et, who ventures for his gain, &amp; not like a Hero, whom the deſire of glory alures to write: the firſt can ſupport a miſcar<g ref="char:EOLhyphen"/>riage, not only through ne<g ref="char:EOLhyphen"/>ceſſity,
+<pb n="109" facs="tcp:59880:63"/>
+but alſo by the advan<g ref="char:EOLhyphen"/>tages of getting money: but the other, according to the chymaerical rules of their ho<g ref="char:EOLhyphen"/>nour, ought to diſpatch him<g ref="char:EOLhyphen"/>ſelf with his own unfortunate Pen, which has ſo ill ſerved the intereſts of his glory, and bluſh to ſurvive ſo ſhameful an overthrow: he that per<g ref="char:EOLhyphen"/>forms any thing of this nature, ventures at the firſt rank of wits; and to gain the higheſt ſteps, where this Age has mounted its ambition: but he that is unſucceſsful in the attempt, falls down with the greater precipitancy amongſt ordinary men; and not only
+<pb n="110" facs="tcp:59880:64"/>
+loſes his hopes, but his former ſtanding, in the diviſion of wits. Which has been found in ſome of the endeavours of our times; where thoſe that have paſt for the greateſt wits, venturing on the Stage have diſcharged themſelves ſo ill in their pretences, that the world will by no means allow them what they formerly poſ<g ref="char:EOLhyphen"/>ſeſſed; &amp; are moreover grown ſuſpicious, that amongſt thoſe they name for the grea<g ref="char:EOLhyphen"/>teſt wits, there is that ſame barrenneſs and dullneſs, with which they reproach inferior men; he that has got the re<g ref="char:EOLhyphen"/>putation of a wit, ought to
+<pb n="111" facs="tcp:59880:64"/>
+maintain it by ſuſpicion, and not expoſe too much of that quality to pitiful cenſures; ſince he that writes, puts him<g ref="char:EOLhyphen"/>ſelf on the ordinary trial of his Country; but he that ut<g ref="char:EOLhyphen"/>ters only in Juncto's and Ca<g ref="char:EOLhyphen"/>bals, ſtands alone to the trial of his Equals. Who are not to judge by the general Laws of wit, but by the principles of their own honour, that is their allow'd Humour. So that both your wit and your Perſon, Sir, muſt run equal hazards in your joyning with theſe men. There are ſome it is true, not only of a more peaceable temper, but alſo
+<pb n="112" facs="tcp:59880:65"/>
+leſs ambitious of wit: but there is nothing amongſt them, that will be high enough for the emulation of a Coun<g ref="char:EOLhyphen"/>try Gentleman: their buſineſs is, to make long addreſſes to a Miſtreſs, or to ſit till mid<g ref="char:EOLhyphen"/>night at a Tavern: where they talk judiciouſly of ſome new piece of wit that goes about the Town; or the for<g ref="char:EOLhyphen"/>tune of the Poets: to value themſelves by their ability to dreſs well; and their quick intelligence of a new Mode: they will entertain you with long winded and ridiculous ſtories of their amorous ſuc<g ref="char:EOLhyphen"/>ceſſes; they will find fault
+<pb n="113" facs="tcp:59880:65"/>
+with the ſitting of your Peri<g ref="char:EOLhyphen"/>wig, or the way you have in manageing your Cloaths: and though to follow the fa<g ref="char:EOLhyphen"/>ſhion of converſation, they will ſpeak with Encomiums on the wits, yet they damn all ſence and underſtanding, where the man is not adored, but in that caſe they are forc'd to truckle under the Laws of Fame. And now, Sir, if you ſhould paſs from this Gentleman who pretends to do nothing; and ſeek for a friendſhip amongſt men of affairs; you would yet miſs of what you ſought; there being nothing amongſt them
+<pb n="114" facs="tcp:59880:66"/>
+agreeable to an indifferent perſon. If you go to the Inns of Court; where you will hear the diſtreſſes of Clients; with the murmurs of thoſe who continually ſolicite a ca<g ref="char:EOLhyphen"/>pricious, or a ſullen Juſtice: amongſt men who are buſied with theſe concernments, the Idaea of converſation is com<g ref="char:EOLhyphen"/>monly very Pedantick, and unpolliſht; and in Truth, not worthy of a Gentleman; where men ſtudy not ſo much, things noble and generous, but the arts of paliating wrong, of defeating and deferring right. With what pleaſure could you ſeek the friendſhip of a
+<pb n="115" facs="tcp:59880:66"/>
+mighty Clark, who having a head crouded with Records &amp; Statutes, ſits drowſily brood<g ref="char:EOLhyphen"/>ing over unjuſt cauſes, with the wretched ſatisfaction of tiring out, by pedantick ſtratagems, the Votaries of juſtice; endea<g ref="char:EOLhyphen"/>vouring to draw Clouds on Sun-beams, and to hang thoſe miſts on truth, that it ſhall wander in the cleareſt evi<g ref="char:EOLhyphen"/>dences: forcing his conſci<g ref="char:EOLhyphen"/>ence, tamely to truckle under the love of money, and of Fame. Certainly this man can have nothing in him agreeable to the principle of Nobleneſs, found in a Gentle<g ref="char:EOLhyphen"/>man: neither if you ſhould
+<pb n="116" facs="tcp:59880:67"/>
+ſtand off from his endear<g ref="char:EOLhyphen"/>ments, would his indifferent converſation afford you any contentment; whilſt he might entertain you with a long ſto<g ref="char:EOLhyphen"/>ry of his induſtry in cauſes; with honourable Encomiums of the wiſe ſpeeches of his Judges; a blind admiration of thoſe who have wit enough to get a great deal of money; with the factions of the Bar; and the riſe of famous Plea<g ref="char:EOLhyphen"/>ders; and ſuch unprofitable Harangues which ſignifie no<g ref="char:EOLhyphen"/>thing to an indifferent Perſon, who is not intereſted in that manner of Life. If, Sir, you addreſs your ſelf to the
+<pb n="117" facs="tcp:59880:67"/>
+younger men of thoſe Socie<g ref="char:EOLhyphen"/>ties, you will find many of them to have only juſt ſo much of the gallant humour as ſerves to make them ſingular, if not ridiculous; whilſt they are the idle Imitators of thoſe things they cannot come up to: if you have a mind to di<g ref="char:EOLhyphen"/>vert your ſelf, you may be<g ref="char:EOLhyphen"/>hold in them, juſt matter for ſuch an entertainment; whilſt you ſhall ſee them manage the affected ſtrut, and their half-moded garniture: hear them ſpeak in the phraſes of a Play, (that modiſh ſort of canting) and becoming the Inſurers of their own glorious
+<pb n="118" facs="tcp:59880:68"/>
+adventures: they damn all things but the extream niceties of humour; and even ſcorn the Learning of their own Society, whilſt they extoll the magnanimities of a Bravo: they pride themſelves in their amours to a Sempſtreſs; and in ſwearing like thoſe who keep company with the wits: nay you muſt take their oaths for their wit; for they be<g ref="char:EOLhyphen"/>lieve their profuſeneſs that way, a ſufficient proof of their being furniſhed with that quality: but with all this noiſe they know little of that addreſs, of which they are the fond Idolaters. This
+<pb n="119" facs="tcp:59880:68"/>
+is to be underſtood, only of the vain, the imperfect, and the half-witted part of them. For theſe ſocieties are, other<g ref="char:EOLhyphen"/>wiſe, the Nurſeries of men of great abilities, and Vertues.</p>
+            <p>I believe I have ſaid enough, Sir, to divert you from ſeek<g ref="char:EOLhyphen"/>ing a friendſhip amongſt thoſe men. In theſe diſtreſſes, I preſume you will not apply your ſelf to the Merchant, whoſe buſineſs is Profit, and Intereſt; without any deſign upon the Improvement of arms, letters, or converſation.</p>
+            <p>I cannot imagine, Sir, that you will ſeek lower for a ſoci<g ref="char:EOLhyphen"/>ety. But yet I have omitted
+<pb n="120" facs="tcp:59880:69"/>
+one ſort of men, where you will be confident of being relieved, and they are the new Philoſophers: here in<g ref="char:EOLhyphen"/>deed it were the higheſt in<g ref="char:EOLhyphen"/>juſtice to ſay you ſhould be deceived; whilſt they have given out themſelves to have done ſo much for the advance<g ref="char:EOLhyphen"/>ment of Knowledge; and ſeem to have obtain'd a victo<g ref="char:EOLhyphen"/>ry over it, with the ſame ce<g ref="char:EOLhyphen"/>lerity as <hi>Caeſar</hi> did, who only ſaw and overcame. It is un<g ref="char:EOLhyphen"/>der their conduct that learn<g ref="char:EOLhyphen"/>ing has made ſuch famous acquiſts, whilſt they have led it victorious through the glo<g ref="char:EOLhyphen"/>rious Regions of the Sky;
+<pb n="121" facs="tcp:59880:69"/>
+through the ſhady Empire of the Main; carrying its Arms ſo far on the Continent, as to ſtrike its Enſigns to the Center of the Earth; giving it ſo abſolute and ſo entire a victo<g ref="char:EOLhyphen"/>ry, that it may now, like the ambitious Youth, lament the ſcarcity of Worlds. This, Sir, is the ſumm of their pre<g ref="char:EOLhyphen"/>tences, and what they pro<g ref="char:EOLhyphen"/>claim; but you will be a little ſurprized, when you ſhall find them ſo long groveling in mechanicks: and pinioning with thoſe meaner arts, the mind, which ſo many Ages had uſed to happy flights: cauſing ſuch a noiſe about the
+<pb n="122" facs="tcp:59880:70"/>
+infirm foundation laid by our Anceſtors, as to make the magnificent ſtructure hazard<g ref="char:EOLhyphen"/>ous of being abandon'd by thoſe eminent wits that have lodged in it. With theſe Gentlemen I am aſſured you will not deſire to ſpend your time; and with any of the former we deſire you ſhould not. You muſt in theſe di<g ref="char:EOLhyphen"/>ſtreſſes turn Gallant, and joyn your ſelf to the company of Women; to ſpend whole af<g ref="char:EOLhyphen"/>ternoons in kiſſing their hands, in admiring their dreſſes, and pretending to receive mortal wounds from their beauty: but yet, over and above that
+<pb n="123" facs="tcp:59880:70"/>
+this were an idle life, you would be diſcarded if you uſed it; for we are not now adaies for Lectures of Platonicks; ſince many of our Women are grown as hardy as the men, and love a taſt of the thing you wot of, to reliſh their Converſations: they deride the formality of hear<g ref="char:EOLhyphen"/>ing long Diſcourſes of their beauty, of the atchievements of their Sex, or any of their adventures that are not arch and couragious: ſo that, Sir, you will be more ridiculous in theſe attempts, than unſuc<g ref="char:EOLhyphen"/>ceſsful in the other. If you ſhould laſt of all, abandon
+<pb n="124" facs="tcp:59880:71"/>
+particular ſocieties, and chop in with all in common: the Park, the Play-houſe, the Eating-houſe, and the Coffee<g ref="char:EOLhyphen"/>houſe: you will hear an unin<g ref="char:EOLhyphen"/>telligible buzzing, and a noiſe of what you underſtand not: ſome ſnatches of occur<g ref="char:EOLhyphen"/>rences, whoſe beauty you are not able to perceive without the knowledge of the whole: if paſſing by the benches of the Pit, you ſhould hear a young Gallant ſwear, that he had appointed the aſſignation at eight of the clock; you could not tell whether it was an intrigue with a Counteſs, or with a Citizens wife: if
+<pb n="125" facs="tcp:59880:71"/>
+you ſhould take a walk, and diſcover a courſe betwixt a Hero and a Lady in a Mask; except you were acquainted with her voice, and her faſhi<g ref="char:EOLhyphen"/>on, you could give your ſelf no account of the hunted beauty: theſe things, Sir, would perplex that curioſity they could not ſatisfie: and beſides, nothing at all inſtruct you in the glorious adventures of the Town: and then for that great Mart of lies and nonſence the Coffee-houſe: if you could furniſh your ſelf with ſo much patience, as to ſit here half an hour; you might hear one Gentleman
+<pb n="126" facs="tcp:59880:72"/>
+ſay to another; I am ſurpriz<g ref="char:EOLhyphen"/>ed, Sir, at the News you told me laſt night; I did not be<g ref="char:EOLhyphen"/>lieve that Nation was capable of ſo much fineneſs and dexte<g ref="char:EOLhyphen"/>rity, now if you were not there at the preciſe time of ut<g ref="char:EOLhyphen"/>tering this intelligence, on the foregoing evening, you could not underſtand of whom it was ſpoken: except you civilly ask the queſtion, which is an affront to, and below the gravity of that place: and be<g ref="char:EOLhyphen"/>ſides unleſs you know your ſelf to be of a remorſeleſs, and bloody diſpoſition; you will be extreamly moved by com<g ref="char:EOLhyphen"/>paſſion, at thoſe Tragick Hi<g ref="char:EOLhyphen"/>ſtories
+<pb n="127" facs="tcp:59880:72"/>
+you will there find ut<g ref="char:EOLhyphen"/>tred: the Sacking of Towns, <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e cutting in pieces of gal<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nt Troops; the approach<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>g Cataſtrophies of Nations; <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e misfortunes of eminent <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tateſmen; the fantaſtick <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>riſis, under which puiſſant Monarchies groan, <hi>&amp;c.</hi> Will <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>here be ſo continually thun<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er'd in your ears, that you will often be obliged to a con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ernment for thoſe Perſons, who really ſtand in need of <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o ſuch compaſſion. Beſides, there will be this inconveni<g ref="char:EOLhyphen"/>ence in general remarks; that you muſt expect to be jeer'd with a witneſs, if you pre<g ref="char:EOLhyphen"/>ſume
+<pb n="128" facs="tcp:59880:73"/>
+to peep into the myſt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ries of a Humour, of whic<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> you are not the Crafts-maſte<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Profeſſours of every In<g ref="char:EOLunhyphen"/>trigue, taking a great prid<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to deſpiſe a pretending <hi>Novit<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ate:</hi> and I have known a littl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Hector, more to glory in th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſleights he is capable of uſin<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in picking up a Wench, an<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in the variety of his know<g ref="char:EOLunhyphen"/>ledge, than a great Captai<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ever did, in the ſtratagems an<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> policies of War: the deſir<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of glory and ſingularity i<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> now as violent as ever, though its ſatisfaction is placed in ſuch trifling and idle acquirements neither ſhould you meet with
+<pb n="129" facs="tcp:59880:73"/>
+ſo much contempt, if you <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>me to learn the moſt glori<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>us Myſteries of War, or rule <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>om its greateſt Maſters; as <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ou ſhall if you apply your <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>lf to a Gallant to know the <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>odes of the Town: who <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ears himſelf more upon ſuch <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſufficiency than the others <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ould upon theirs: ſo that it <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ill by no means be agreeable <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the height of your ſpirit, to <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>retend but in part to the Hu<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ours of a Hero; becauſe <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ou will be ſtrangely ruffled if <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ou are found ignorant in the <gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ceſt points. I can think for <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he preſent, of nothing elſe <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat is important in the occur<g ref="char:EOLhyphen"/>rences
+<pb n="128" facs="tcp:59880:74"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="129" facs="tcp:59880:74"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="130" facs="tcp:59880:75"/>
+of the Town. A<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> now, Sir, what is it that yo<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſee in this manner of life capa<g ref="char:EOLunhyphen"/>ble of pleaſing you? or tha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſhould cauſe you to prefer i<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> before the innocence, manl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>neſs, and pleaſures of you<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Country one. Do you liv<g ref="char:EOLunhyphen"/>ingloriouſly, becauſe you g<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to Bed at ten a clock, and ca<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>not up the Sun to uſher you t<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> your Lodgings? Is it mor<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> pleaſant to lie in little Rooms more incommodious than th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Lodge of your Porter, tha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to be well attended, and to command in the Palace o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> your Anceſtors? Is there <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> neceſſity that you ſhould
+<pb n="131" facs="tcp:59880:75"/>
+eſteem that day as loſt, in which you have not ſignalized your valour on the Apple<g ref="char:EOLhyphen"/>women, the Conſtable, or the frail Glaſs-windows? Giving by ſuch actions a luſtre to the night in which you do them, <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat ſhould make it capable of <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rivalling the brightneſs of the morning. I ſee no neceſſity, Sir, of humouring ſuch an ambition: Or are you not edu<g ref="char:EOLhyphen"/>cated like a Gentleman, except you have half a ſcore times been under the hands of the Surgeon, for the Conſumpti<g ref="char:EOLhyphen"/>on 'tis ſurely a very fantaſtical Genius that governs this Age, to place the glory of a Hero
+<pb n="132" facs="tcp:59880:76"/>
+in ſuch odd ſort of ſufferings <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> are you obliged by the rules o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the new Honour, to ſwear fo<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> prodigiouſly, as if you were made Maſter of the Artillery to the Divel, or elſe you can<g ref="char:EOLhyphen"/>not be reckon'd a man of good utterance and ſence; We can here, Sir, eſteem you well enough without ſuch loud ſtreams of Rhetorick; and ſufficiently value your gene<g ref="char:EOLhyphen"/>roſity, though you oblige not your laviſh ſoul to ſpend all its vertue in a moment. You may, Sir, (according to our opini<g ref="char:EOLhyphen"/>on) try your ſtrength better in the manly exerciſes of the Country, than in the De<g ref="char:EOLhyphen"/>baucheries
+<pb n="133" facs="tcp:59880:76"/>
+of the Town! and find leſs repugnance in making Love to a Lady, whoſe Ver<g ref="char:EOLhyphen"/>tue equals her Beauty, than in laviſhly preſenting of Wen<g ref="char:EOLhyphen"/>ches, who will ſpend your bounty as freely on a Groom, or a Foot-boy: your mind will certainly be more tranquil, and more capable of generous thoughts, that has the Idaeas of juſtice and innocence to ca<g ref="char:EOLhyphen"/>reſs it, than when it is heated with the exploits of the Town; thoſe minds who have alwaies before them the Images of ſuch low and com<g ref="char:EOLhyphen"/>mon things, can never gene<g ref="char:EOLhyphen"/>rate actions truly noble or
+<pb n="134" facs="tcp:59880:77"/>
+worthy of Heroes; ſince it is impoſſible for the ſoul to pro<g ref="char:EOLhyphen"/>duce any thing above its Idaeas And in ſhort, Sir, what ſatis<g ref="char:EOLhyphen"/>faction do you imagine my Lady will take in the know<g ref="char:EOLhyphen"/>ledge of theſe things: will ſhe not have juſt reaſon for her grief and diſpleaſures, when ſhe ſees how ill you improve the care of her education, and what a diſagreeing ſtructure you raiſe on ſuch a foundation; ſhe will ſee with infinite grief the diſappointment of her hopes, whilſt ſhe muſt leave behind her only the name, without any of the Vertues that were illuſtrious in your
+<pb n="135" facs="tcp:59880:77"/>
+Family: as ſhe will reflect with trouble on thoſe happy Mothers, who all along had a charge in your Race; and who died with the contentment of a proſperous conduct; when at the ſame time though her prudence and her diligence have equalled theirs, yet her charge has alone miſcarried: ſhe has been a fruitful Mother, and ſet you in the cluſter of Heroes, but ſhe muſt ſee you growing dim and ſullied in the circle of ſo bright a Race; and ſhe will believe that the glory of your houſe is ſet, ſince a name adds nothing to a Family, without vertuous
+<pb n="136" facs="tcp:59880:78"/>
+endowments. And in fine, Sir, we that have hitherto been ho<g ref="char:EOLhyphen"/>noured with your friendſhip, ſhall not know after what manner to receive you, when you return from the Town: we know you will ſufficiently deſpiſe not only our capacities but our courage; whilſt we can neither talk, nor act at your admirable rate: nor I believe will you ever be able to inſpire us with your gallantry of mind: we can very peaceably go to Bed by a Candle, and not deſire to ſwim to our re<g ref="char:EOLhyphen"/>poſe through Blood or Wine: we are guilty of that good breeding as to think it rude to
+<pb n="137" facs="tcp:59880:78"/>
+lie long after the Sun; neither have we thoſe prodigious ad<g ref="char:EOLhyphen"/>ventures to dream of, as could <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ndear the Pillow to us be<g ref="char:EOLhyphen"/>yond the hour of twelve. Well, Sir, we muſt take our leave of you when you go, and never expect to ſee that accompliſht innocent young Gentleman again in our Country; but one that will become the terrour of the Piggs, and the Pullen; and that will level ſuch an Ar<g ref="char:EOLhyphen"/>tillery of Oaths againſt us, as muſt oblige us to ſtand off with our careſſes. Thus, Sir, like Juſtice, you muſt be a ſtranger in your Country: or return again to the boſom of
+<pb n="138" facs="tcp:59880:79"/>
+your Heroes; where after you have cut off another fair branch of your Eſtate, you will have added enough to the tri<g ref="char:EOLhyphen"/>umphs of wit, &amp; humour: and though with leſs glory, yet more diſcretion, return like a Conſul privatly home: where you will have time to reflect, like an unfortunate aſpirer, on all the precipitancies of a wild ambition; and on the fanta<g ref="char:EOLhyphen"/>ſtick Paths are trod to the glo<g ref="char:EOLhyphen"/>ry of this Age: yet you will then find that all your exerciſe of Eloquence, and Arms, to which you had been bred in the Town, will not beſtow up<g ref="char:EOLhyphen"/>on you a ſufficiency to ſerve
+<pb n="139" facs="tcp:59880:79"/>
+your Country, with reputati<g ref="char:EOLhyphen"/>on and ſucceſs; or to preſide over the fortune of bickering Nations: but though your Age will not feel the weight of your Laurels; yet it may the ſmart of your debauchments; and the extravagancies of an hour, may accompany your ſence to the remoteſt moments of your life: and that reaſon to which time will reſtore its juſt Dominion, will not only with indignation ſee the miſcarriage of its affairs, under the conduct of a wild Humour; but alſo, like a juſt Prince, behold with pity the ruine of its intereſts, and the fatal waſts of its inhe<g ref="char:EOLhyphen"/>ritance,
+<pb n="140" facs="tcp:59880:80"/>
+under the regiment of that Tyrant; when it muſt live a ſolitary and a drooping Monarch, lamenting the capti<g ref="char:EOLhyphen"/>vity of its nobleſt Princes, car<g ref="char:EOLhyphen"/>ried away in the incurſions of youthful luſts; and grieve to have arrived too late to reſcue the faireſt ſubjects of its po<g ref="char:EOLhyphen"/>wer; when the pleaſures of what it poſſeſſes, will not be able to divert the trouble of loſing what it ought to have enjoyed. After all, Sir, you will add to thoſe numerous in<g ref="char:EOLhyphen"/>ſtances, that ſhow to the world the alone power of experience: whilſt all the remonſtrances of others; and the admoniti<g ref="char:EOLhyphen"/>ons
+<pb n="141" facs="tcp:59880:80"/>
+of our beſt friends can ne<g ref="char:EOLhyphen"/>ver prevail ſo effectually upon us as our own trial of things: and that he which will be truly wiſe, muſt be ſo at his own coſt, and not expect it at the expences of others. Yet from that Experience, you will not receive inſtruction with that friendlineſs and ſweetneſs, with which now your Relations make you their Remonſtrances: that Lords it, and impoſes, ſitting upon our minds like ſullen Counſellors in declining States: preſent<g ref="char:EOLhyphen"/>ing us not with the Picture; but the Original of unplea<g ref="char:EOLhyphen"/>ſant things. Experience is
+<pb n="142" facs="tcp:59880:81"/>
+the laſt Inſtructer of mankind; having in it that Authority and Eloquence, of which ex<g ref="char:EOLhyphen"/>amples and precepts are de<g ref="char:EOLhyphen"/>ſtitute: whether or no, 'tis reſerved as a puniſhment of untractable diſpoſitions, to know with a bluſh and regret, what they would not receive with an even and a tranquil temper: or whether it is the ſureſt way to conquer an in<g ref="char:EOLhyphen"/>glorious affection to Vices: certain it is, it has triumphed in very great inſtances of its power; and reclaimed thoſe that were impenitrable to ſweeter arts: and there has not paſt an Age, in which
+<pb n="143" facs="tcp:59880:81"/>
+it has not done ſomething ex<g ref="char:EOLhyphen"/>traordinary and eminent. But yet it was the deſire of your Relations, that you might have eſcaped its Diſcipline, and that not only becauſe it would ſhow more generoſity to be otherwiſe admoniſhed; but alſo, becauſe that is known to be ſometimes very ſevere; and to have that fa<g ref="char:EOLhyphen"/>tality in its precedure as to ruine the ſubject it inſtructs: allowing but ſome few mo<g ref="char:EOLhyphen"/>ments of being wiſe. We heartily wiſh that you may be ſpared from thoſe ſeverities; and ſince you will be left to the Documents of experience,
+<pb n="144" facs="tcp:59880:82"/>
+that it may deal favourably with you, and kindly ſhew you in a little, what the grea<g ref="char:EOLhyphen"/>ter amounts to, is the paſſio<g ref="char:EOLhyphen"/>nate wiſh of all that know you: and particularly of,</p>
+            <closer>
+               <salute>Sir,</salute>
+               <signed>Your moſt affectionate Friend, and humble Servant.</signed>
+            </closer>
+            <pb facs="tcp:59880:82"/>
+         </div>
+      </body>
+   </text>
+</TEI>
